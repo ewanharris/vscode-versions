@@ -19,6 +19,8 @@ jobs:
         with:
           deno-version: v1.x
       - name: Run script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           deno run \
           --allow-read=.env,.env.defaults,versions.json \
