@@ -1,0 +1,32 @@
+name: Update Versions
+
+on:
+  push:
+    branches:
+      - main
+  schedule: 
+    - cron: '0 0 * * *'
+
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: Run script
+        run: |
+          deno run \
+          --allow-read=.env,.env.defaults,versions.json \
+          --allow-write=.env,.env.defaults,versions.json,README.md \
+          --allow-env=GITHUB_TOKEN \
+          --allow-net=api.github.com,raw.githubusercontent.com \
+          index.ts
+      - name: Update repo
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          - commit_message: Update to latest versions

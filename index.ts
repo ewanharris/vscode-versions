@@ -2,6 +2,11 @@ import "https://deno.land/x/dotenv@v3.2.0/load.ts";
 
 const GITHUB_TOKEN = Deno.env.get('GITHUB_TOKEN');
 
+if (!GITHUB_TOKEN) {
+    console.error('No GITHUB_TOKEN value provided');
+    Deno.exit(1);
+}
+
 interface Release {
     created_at: string;
     name: string;
@@ -119,6 +124,7 @@ async function getVsCodeVersions () {
     for (const release of releases) {
         const { name, tag_name, created_at } = release;
         if (cachedVersions.includes(tag_name)) {
+            console.log(`Already have data for ${tag_name}`);
             continue;
         }
         console.log(`Get versions for ${tag_name}`);
