@@ -1,1 +1,482 @@
-[]
+[
+	{
+		"version": "1.69.1",
+		"chromium": "100.0.4896.160",
+		"electron": "18.3.5",
+		"node": "16.13.2",
+		"name": "June 2022 Recovery 1",
+		"created_at": "2022-07-12T05:58:14Z"
+	},
+	{
+		"version": "1.69.0",
+		"chromium": "100.0.4896.160",
+		"electron": "18.3.5",
+		"node": "16.13.2",
+		"name": "June 2022 (version 1.69)",
+		"created_at": "2022-07-05T18:15:23Z"
+	},
+	{
+		"version": "1.68.1",
+		"chromium": "98.0.4758.141",
+		"electron": "17.4.7",
+		"node": "16.13.0",
+		"name": "May 2022 Recovery 1",
+		"created_at": "2022-06-14T10:55:41Z"
+	},
+	{
+		"version": "1.68.0",
+		"chromium": "98.0.4758.141",
+		"electron": "17.4.7",
+		"node": "16.13.0",
+		"name": "May 2022 (version 1.68)",
+		"created_at": "2022-06-08T11:20:55Z"
+	},
+	{
+		"version": "1.67.2",
+		"chromium": "98.0.4758.141",
+		"electron": "17.4.1",
+		"node": "16.13.0",
+		"name": "April 2022 Recovery 2",
+		"created_at": "2022-05-16T17:42:35Z"
+	},
+	{
+		"version": "1.67.1",
+		"chromium": "98.0.4758.141",
+		"electron": "17.4.1",
+		"node": "16.13.0",
+		"name": "April 2022 Recovery 1",
+		"created_at": "2022-05-06T12:20:52Z"
+	},
+	{
+		"version": "1.67.0",
+		"chromium": "98.0.4758.141",
+		"electron": "17.4.1",
+		"node": "16.13.0",
+		"name": "April 2022 (version 1.67)",
+		"created_at": "2022-05-04T11:47:11Z"
+	},
+	{
+		"version": "1.66.2",
+		"chromium": "98.0.4758.109",
+		"electron": "17.2.0",
+		"node": "16.13.0",
+		"name": "March 2022 Recovery 2",
+		"created_at": "2022-04-11T07:30:00Z"
+	},
+	{
+		"version": "1.66.1",
+		"chromium": "98.0.4758.109",
+		"electron": "17.2.0",
+		"node": "16.13.0",
+		"name": "March 2022 Recovery",
+		"created_at": "2022-04-07T15:31:17Z"
+	},
+	{
+		"version": "1.66.0",
+		"chromium": "98.0.4758.109",
+		"electron": "17.2.0",
+		"node": "16.13.0",
+		"name": "March 2022 (version 1.66)",
+		"created_at": "2022-03-29T15:21:16Z"
+	},
+	{
+		"version": "1.65.2",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "February 2022 Recovery 2",
+		"created_at": "2022-03-10T14:14:09Z"
+	},
+	{
+		"version": "1.65.1",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "February 2022 Recovery 1",
+		"created_at": "2022-03-08T01:48:17Z"
+	},
+	{
+		"version": "1.65.0",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "February 2022 (version 1.65)",
+		"created_at": "2022-03-02T02:35:20Z"
+	},
+	{
+		"version": "1.64.2",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "January 2022 Recovery 2",
+		"created_at": "2022-02-09T21:24:27Z"
+	},
+	{
+		"version": "1.64.1",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "January 2022 Recovery",
+		"created_at": "2022-02-07T16:59:04Z"
+	},
+	{
+		"version": "1.64.0",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "January 2022",
+		"created_at": "2022-02-02T16:57:24Z"
+	},
+	{
+		"version": "1.63.2",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "November 2021 Recovery 2",
+		"created_at": "2021-12-15T09:23:15Z"
+	},
+	{
+		"version": "1.63.1",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "November 2021 Recovery",
+		"created_at": "2021-12-14T01:45:12Z"
+	},
+	{
+		"version": "1.63.0",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "November 2021",
+		"created_at": "2021-12-08T21:19:32Z"
+	},
+	{
+		"version": "1.62.3",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "October 2021 Recovery 3",
+		"created_at": "2021-11-18T18:44:54Z"
+	},
+	{
+		"version": "1.62.2",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.2",
+		"node": "14.16.0",
+		"name": "October 2021 Recovery 2",
+		"created_at": "2021-11-12T15:55:27Z"
+	},
+	{
+		"version": "1.62.1",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.1",
+		"node": "14.16.0",
+		"name": "October 2021 Recovery",
+		"created_at": "2021-11-05T08:51:48Z"
+	},
+	{
+		"version": "1.62.0",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.1",
+		"node": "14.16.0",
+		"name": "October 2021",
+		"created_at": "2021-11-04T16:42:23Z"
+	},
+	{
+		"version": "1.61.2",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.1",
+		"node": "14.16.0",
+		"name": "September 2021 Recovery 2",
+		"created_at": "2021-10-19T18:08:25Z"
+	},
+	{
+		"version": "1.61.1",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.1",
+		"node": "14.16.0",
+		"name": "September 2021 Recovery",
+		"created_at": "2021-10-14T18:16:51Z"
+	},
+	{
+		"version": "1.61.0",
+		"chromium": "91.0.4472.164",
+		"electron": "13.5.1",
+		"node": "14.16.0",
+		"name": "September 2021",
+		"created_at": "2021-10-07T20:53:47Z"
+	},
+	{
+		"version": "1.60.2",
+		"chromium": "91.0.4472.164",
+		"electron": "13.1.8",
+		"node": "14.16.0",
+		"name": "August 2021 Recovery 2",
+		"created_at": "2021-09-22T11:45:58Z"
+	},
+	{
+		"version": "1.60.1",
+		"chromium": "91.0.4472.164",
+		"electron": "13.1.8",
+		"node": "14.16.0",
+		"name": "August 2021 Recovery",
+		"created_at": "2021-09-10T16:45:00Z"
+	},
+	{
+		"version": "1.60.0",
+		"chromium": "91.0.4472.164",
+		"electron": "13.1.8",
+		"node": "14.16.0",
+		"name": "August 2021",
+		"created_at": "2021-09-01T10:25:58Z"
+	},
+	{
+		"version": "1.59.1",
+		"chromium": "91.0.4472.124",
+		"electron": "13.1.7",
+		"node": "14.16.0",
+		"name": "July 2021 Recovery",
+		"created_at": "2021-08-18T23:34:31Z"
+	},
+	{
+		"version": "1.59.0",
+		"chromium": "91.0.4472.124",
+		"electron": "13.1.7",
+		"node": "14.16.0",
+		"name": "July 2021",
+		"created_at": "2021-08-04T20:11:41Z"
+	},
+	{
+		"version": "1.58.2",
+		"chromium": "89.0.4389.128",
+		"electron": "12.0.13",
+		"node": "14.16.0",
+		"name": "June 2021 Recovery 2",
+		"created_at": "2021-07-14T21:51:05Z"
+	},
+	{
+		"version": "1.58.1",
+		"chromium": "89.0.4389.128",
+		"electron": "12.0.13",
+		"node": "14.16.0",
+		"name": "June 2021 Recovery",
+		"created_at": "2021-07-13T06:04:54Z"
+	},
+	{
+		"version": "1.58.0",
+		"chromium": "89.0.4389.128",
+		"electron": "12.0.13",
+		"node": "14.16.0",
+		"name": "June 2021",
+		"created_at": "2021-07-07T11:18:25Z"
+	},
+	{
+		"version": "1.57.1",
+		"chromium": "89.0.4389.128",
+		"electron": "12.0.7",
+		"node": "14.16.0",
+		"name": "May 2021 Recovery",
+		"created_at": "2021-06-17T12:10:36Z"
+	},
+	{
+		"version": "1.57.0",
+		"chromium": "89.0.4389.128",
+		"electron": "12.0.9",
+		"node": "14.16.0",
+		"name": "May 2021",
+		"created_at": "2021-06-09T10:16:30Z"
+	},
+	{
+		"version": "1.56.2",
+		"chromium": "89.0.4389.114",
+		"electron": "12.0.4",
+		"node": "14.16.0",
+		"name": "April 2021 Recovery 2",
+		"created_at": "2021-05-13T17:02:33Z"
+	},
+	{
+		"version": "1.56.1",
+		"chromium": "89.0.4389.114",
+		"electron": "12.0.4",
+		"node": "14.16.0",
+		"name": "April 2021 Recovery",
+		"created_at": "2021-05-06T09:54:30Z"
+	},
+	{
+		"version": "1.56.0",
+		"chromium": "89.0.4389.114",
+		"electron": "12.0.4",
+		"node": "14.16.0",
+		"name": "April 2021",
+		"created_at": "2021-05-05T20:48:28Z"
+	},
+	{
+		"version": "1.55.2",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "March 2021 Recovery",
+		"created_at": "2021-04-13T17:03:27Z"
+	},
+	{
+		"version": "1.55.1",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "March 2021 Recovery",
+		"created_at": "2021-04-08T18:05:26Z"
+	},
+	{
+		"version": "1.55.0",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "March 2021",
+		"created_at": "2021-03-31T17:17:53Z"
+	},
+	{
+		"version": "1.54.3",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "February 2021 Recovery 3",
+		"created_at": "2021-03-15T10:37:30Z"
+	},
+	{
+		"version": "1.54.2",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "February 2021 Recovery 2",
+		"created_at": "2021-03-11T00:40:17Z"
+	},
+	{
+		"version": "1.54.1",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "February 2021 Recovery",
+		"created_at": "2021-03-04T22:21:59Z"
+	},
+	{
+		"version": "1.54.0",
+		"chromium": "87.0.4280.141",
+		"electron": "11.3.0",
+		"node": "12.18.3",
+		"name": "February 2021",
+		"created_at": "2021-03-02T18:39:23Z"
+	},
+	{
+		"version": "1.53.2",
+		"chromium": "87.0.4280.141",
+		"electron": "11.2.1",
+		"node": "12.18.3",
+		"name": "January 2021 Recovery 2",
+		"created_at": "2021-02-11T11:31:56Z"
+	},
+	{
+		"version": "1.53.1",
+		"chromium": "87.0.4280.141",
+		"electron": "11.2.1",
+		"node": "12.18.3",
+		"name": "January 2021 Recovery",
+		"created_at": "2021-02-08T22:59:27Z"
+	},
+	{
+		"version": "1.53.0",
+		"chromium": "87.0.4280.141",
+		"electron": "11.2.1",
+		"node": "12.18.3",
+		"name": "January 2021",
+		"created_at": "2021-02-03T15:33:23Z"
+	},
+	{
+		"version": "1.52.1",
+		"chromium": "83.0.4103.122",
+		"electron": "9.3.5",
+		"node": "12.14.1",
+		"name": "November 2020 Recovery",
+		"created_at": "2020-12-16T14:57:12Z"
+	},
+	{
+		"version": "1.52.0",
+		"chromium": "83.0.4103.122",
+		"electron": "9.3.5",
+		"node": "12.14.1",
+		"name": "November 2020",
+		"created_at": "2020-12-10T22:10:40Z"
+	},
+	{
+		"version": "1.51.1",
+		"chromium": "83.0.4103.122",
+		"electron": "9.3.3",
+		"node": "12.14.1",
+		"name": "October 2020 Recovery",
+		"created_at": "2020-11-10T22:57:26Z"
+	},
+	{
+		"version": "1.51.0",
+		"chromium": "83.0.4103.122",
+		"electron": "9.3.3",
+		"node": "12.14.1",
+		"name": "October 2020",
+		"created_at": "2020-11-04T15:29:23Z"
+	},
+	{
+		"version": "1.50.1",
+		"chromium": "83.0.4103.122",
+		"electron": "9.2.1",
+		"node": "12.14.1",
+		"name": "September 2020 Recovery",
+		"created_at": "2020-10-13T14:05:48Z"
+	},
+	{
+		"version": "1.50.0",
+		"chromium": "83.0.4103.122",
+		"electron": "9.2.1",
+		"node": "12.14.1",
+		"name": "September 2020",
+		"created_at": "2020-10-07T00:27:02Z"
+	},
+	{
+		"version": "1.49.3",
+		"chromium": "83.0.4103.122",
+		"electron": "9.2.1",
+		"node": "12.14.1",
+		"name": "August 2020 Recovery 3",
+		"created_at": "2020-10-02T16:06:59Z"
+	},
+	{
+		"version": "1.49.2",
+		"chromium": "83.0.4103.122",
+		"electron": "9.2.1",
+		"node": "12.14.1",
+		"name": "August 2020 Recovery 2",
+		"created_at": "2020-09-22T23:07:58Z"
+	},
+	{
+		"version": "1.49.1",
+		"chromium": "83.0.4103.122",
+		"electron": "9.2.1",
+		"node": "12.14.1",
+		"name": "August 2020 Recovery",
+		"created_at": "2020-09-16T22:42:06Z"
+	},
+	{
+		"version": "1.49.0",
+		"chromium": "83.0.4103.122",
+		"electron": "9.2.1",
+		"node": "12.14.1",
+		"name": "August 2020",
+		"created_at": "2020-09-09T07:40:32Z"
+	},
+	{
+		"version": "1.48.2",
+		"chromium": "78.0.3904.130",
+		"electron": "7.3.2",
+		"node": "12.8.1",
+		"name": "July 2020 Recovery 2",
+		"created_at": "2020-08-25T09:40:01Z"
+	}
+]
