@@ -1,4 +1,6 @@
 import "https://deno.land/x/dotenv@v3.2.0/load.ts";
+import * as semver from "https://deno.land/x/semver@v1.4.0/mod.ts";
+
 
 const GITHUB_TOKEN = Deno.env.get('GITHUB_TOKEN');
 
@@ -6,6 +8,8 @@ if (!GITHUB_TOKEN) {
     console.error('No GITHUB_TOKEN value provided');
     Deno.exit(1);
 }
+
+const noCache = Deno.args.includes('--no-cache');
 
 interface Release {
     created_at: string;
@@ -22,6 +26,12 @@ interface VsCode {
     version: string;
 }
 
+/**
+ * Parses the link header value in order to retrieve the next link value for pagination
+ *
+ * @param {string} header - The link header from the response
+ * @returns {string|undefined} - The next link value if one exists
+ */
 function parseLinkHeader (header: string): string|undefined {
     let nextLink: string|undefined;
     for (const part of header.split(/,\s*</)) {
@@ -38,8 +48,9 @@ function parseLinkHeader (header: string): string|undefined {
 /**
  * Performs a GitHub API request handling pagination and authentication
  *
- * @param uri - The URI to request
- * @returns ?
+ * @template T
+ * @param {string} uri - The URI to request
+ * @returns {T[]} The response from the GitHub API
  */
 async function githubApiRequest<T extends Array<unknown>>(uri: string): Promise<T> {
     const response = await fetch(uri, {
@@ -65,8 +76,8 @@ async function githubApiRequest<T extends Array<unknown>>(uri: string): Promise<
 /**
  * Request a file on GitHub
  *
- * @param {String} uri - The URI to request
- * @returns {String} The file contents
+ * @param {string} uri - The URI to request
+ * @returns {Promise<string>} The file contents
  */
 async function githubFileRequest(uri: string): Promise<string> {
     const response = await fetch(uri, {
@@ -83,6 +94,12 @@ async function githubFileRequest(uri: string): Promise<string> {
     return response.text();
 }
 
+/**
+ * Looks up the Electron version included in the VS Code version
+ *
+ * @param {string} version - The VS Code version
+ * @returns {Promise<string>} The Electron version
+ */
 async function getElectronVersion (version: string): Promise<string> {
     let electronVersion = 'Unknown';
     const yarnrc = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.yarnrc`);
@@ -93,6 +110,12 @@ async function getElectronVersion (version: string): Promise<string> {
     return electronVersion;
 }
 
+/**
+ * Looks up the Chromium version included in the Electron version used in VS Code
+ *
+ * @param electronVersion - The Electron version used in VS Code
+ * @returns {Promise<string>} The Chromium version
+ */
 async function getChromiumVersion (electronVersion: string): Promise<string> {
     let chromiumVersion = 'Unknown';
     const file = await githubFileRequest(`https://raw.githubusercontent.com/electron/electron/v${electronVersion}/DEPS`)
@@ -104,6 +127,12 @@ async function getChromiumVersion (electronVersion: string): Promise<string> {
     return chromiumVersion;
 }
 
+/**
+ * Looks up the Node.js version included in the Electron version in VS Code
+ *
+ * @param {string} electronVersion - The Electron version used in VS Code
+ * @returns {Promise<string>} The Node.js version
+ */
 async function getNodeVersion(electronVersion: string): Promise<string> {
     let nodeVersion = 'Unknown';
     
@@ -117,13 +146,26 @@ async function getNodeVersion(electronVersion: string): Promise<string> {
     return nodeVersion;
 }
 
+/**
+ * Read the cached versions
+ *
+ * @returns {Promise<VsCode[]>} A promise which will resolve with an array of cached versions or
+ * an empty array if --no-cache was provided
+ */
+async function getCachedVersions (): Promise<VsCode[]> {
+    if (noCache) {
+        return []
+    }
+    return JSON.parse(await Deno.readTextFile('./versions.json'));
+}
+
 async function getVsCodeVersions () {
-    const versions: VsCode[] = JSON.parse(await Deno.readTextFile('./versions.json'));
+    const versions = await getCachedVersions();
     const cachedVersions = versions.map(vscode => vscode.version);
     const releases = await githubApiRequest<Release[]>('https://api.github.com/repos/Microsoft/vscode/releases');
     for (const release of releases) {
         const { name, tag_name, created_at } = release;
-        if (cachedVersions.includes(tag_name)) {
+        if (!noCache && cachedVersions.includes(tag_name)) {
             console.log(`Already have data for ${tag_name}`);
             continue;
         }
@@ -144,7 +186,7 @@ async function getVsCodeVersions () {
             created_at
         });
     } 
-    return versions;
+    return versions.sort((a,b) => semver.rcompare(a.version, b.version));
 }
 
 const versions = await getVsCodeVersions();
@@ -163,4 +205,30 @@ ${
     versions.map(version => (
         `|${version.version}|${version.electron}|${version.node}|${version.chromium}|`
     )).join('\n')
-}`);
+}
+
+## How it works
+
+The scripts works by doing the following:
+
+1. Retrieve all the releases in the microsoft/vscode repo
+2. For each release
+   * Retrieve the Electron version in VS Code
+   * Retrieve the Chromium and Node.js versions in Electron
+3. Update the README file
+
+## Running locally
+
+1. [Install Deno](https://deno.land/#installation)
+2. Create a .env file based on the .env.example file
+3. Run using the below command
+\`\`\`bash
+deno run \\
+--allow-read=.env,.env.defaults,versions.json \\
+--allow-write=.env,.env.defaults,versions.json,README.md \\
+--allow-env=GITHUB_TOKEN \\
+--allow-net=api.github.com,raw.githubusercontent.com \\
+index.ts
+\`\`\`
+\`:bulb: If you need to update the cache provide the --no-cache flag after index.ts\`
+`);
