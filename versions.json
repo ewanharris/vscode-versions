@@ -1,5 +1,13 @@
 [
 	{
+		"version": "1.77.3",
+		"chromium": "102.0.5005.167",
+		"electron": "19.1.9",
+		"node": "16.14.2",
+		"name": "March 2023 Recovery 3",
+		"created_at": "2023-04-12T17:20:33Z"
+	},
+	{
 		"version": "1.77.2",
 		"chromium": "102.0.5005.167",
 		"electron": "19.1.9",
