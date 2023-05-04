@@ -1,5 +1,13 @@
 [
 	{
+		"version": "1.78.0",
+		"chromium": "108.0.5359.215",
+		"electron": "22.3.5",
+		"node": "16.17.1",
+		"name": "April 2023",
+		"created_at": "2023-05-03T19:37:04Z"
+	},
+	{
 		"version": "1.77.3",
 		"chromium": "102.0.5005.167",
 		"electron": "19.1.9",
