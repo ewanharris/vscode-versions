@@ -29,7 +29,7 @@ jobs:
           --allow-net=api.github.com,raw.githubusercontent.com \
           index.ts
       - name: Update repo
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update to latest versions
           commit_user_name: actions-user
