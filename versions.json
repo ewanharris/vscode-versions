@@ -1,5 +1,13 @@
 [
 	{
+		"version": "1.90.2",
+		"chromium": "122.0.6261.156",
+		"electron": "29.4.0",
+		"node": "20.9.0",
+		"name": "May 2024 Recovery 2",
+		"created_at": "2024-06-18T20:06:05Z"
+	},
+	{
 		"version": "1.90.1",
 		"chromium": "122.0.6261.156",
 		"electron": "29.4.0",
