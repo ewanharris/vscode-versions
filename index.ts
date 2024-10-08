@@ -88,6 +88,7 @@ async function githubFileRequest(uri: string): Promise<string> {
     });
 
     if (response.status >= 400) {
+        console.error(`Failed to get text for ${uri}`);
         throw new Error(await response.text());
     }
 
@@ -102,8 +103,17 @@ async function githubFileRequest(uri: string): Promise<string> {
  */
 async function getElectronVersion (version: string): Promise<string> {
     let electronVersion = 'Unknown';
-    const yarnrc = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.yarnrc`);
-    const target = yarnrc.match(/target "(\d.*)"/);
+    let rcFile
+    try {
+        // newer versions moved to .npmrc
+        rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.npmrc`);
+    } catch (_) {
+        // older versions used .yarnrc
+        rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.yarns`);
+    }
+
+  
+    const target = rcFile.match(/target[ =]"(\d.*)"/);
     if (target && target[1]) {
         electronVersion = target[1];
     }
