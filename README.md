@@ -152,13 +152,6 @@ The scripts works by doing the following:
 
 1. [Install Deno](https://deno.land/#installation)
 2. Create a .env file based on the .env.example file
-3. Run using the below command
-```bash
-deno run \
---allow-read=.env,.env.defaults,versions.json \
---allow-write=.env,.env.defaults,versions.json,README.md \
---allow-env=GITHUB_TOKEN \
---allow-net=api.github.com,raw.githubusercontent.com \
-index.ts
-```
-`:bulb: If you need to update the cache provide the --no-cache flag after index.ts`
+3. Run using `deno task run`
+
+`:bulb: If you need to update the cache provide the --no-cache flag`
