@@ -1,6 +1,4 @@
-import "https://deno.land/x/dotenv@v3.2.0/load.ts";
-import * as semver from "https://deno.land/x/semver@v1.4.0/mod.ts";
-
+import { compare, parse } from "@std/semver";
 
 const GITHUB_TOKEN = Deno.env.get('GITHUB_TOKEN');
 
@@ -195,8 +193,9 @@ async function getVsCodeVersions () {
             name,
             created_at
         });
-    } 
-    return versions.sort((a,b) => semver.rcompare(a.version, b.version));
+    }
+    // reverse sort to ensure we have latest versions at the top
+    return versions.sort((a,b) => compare(parse(b.version), parse(a.version)));
 }
 
 const versions = await getVsCodeVersions();

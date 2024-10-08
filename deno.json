@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@std/semver": "jsr:@std/semver@^1.0.3"
+  },
+  "tasks": {
+    "run": "deno run --env --allow-env=GITHUB_TOKEN --allow-read=versions.json --allow-write=versions.json,README.md --allow-net=api.github.com,raw.githubusercontent.com index.ts"
+  }
+}

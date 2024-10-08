@@ -21,13 +21,7 @@ jobs:
       - name: Run script
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          deno run \
-          --allow-read=.env,.env.defaults,versions.json \
-          --allow-write=.env,.env.defaults,versions.json,README.md \
-          --allow-env=GITHUB_TOKEN \
-          --allow-net=api.github.com,raw.githubusercontent.com \
-          index.ts
+        run: deno task run
       - name: Update repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
