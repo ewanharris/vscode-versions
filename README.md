@@ -3,7 +3,7 @@
 
 An overview of the Electron, Node.js, and Chromium version in each VS Code release.
 
-Last updated: 2024-10-08T18:04:52.713Z
+Last updated: 2024-10-08T18:36:46.416Z
 
 |VS Code|Codename|Electron|Node|Chromium|
 |:-------:|:--------:|:--------:|:----:|:------:|
@@ -152,6 +152,13 @@ The scripts works by doing the following:
 
 1. [Install Deno](https://deno.land/#installation)
 2. Create a .env file based on the .env.example file
-3. Run using `deno task run`
-
-`:bulb: If you need to update the cache provide the --no-cache flag`
+3. Run using the below command
+```bash
+deno run \
+--allow-read=.env,.env.defaults,versions.json \
+--allow-write=.env,.env.defaults,versions.json,README.md \
+--allow-env=GITHUB_TOKEN \
+--allow-net=api.github.com,raw.githubusercontent.com \
+index.ts
+```
+`:bulb: If you need to update the cache provide the --no-cache flag after index.ts`
