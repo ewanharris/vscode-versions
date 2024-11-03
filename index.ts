@@ -199,7 +199,7 @@ async function getVsCodeVersions () {
 }
 
 const versions = await getVsCodeVersions();
-await Deno.writeTextFile('./versions.json', JSON.stringify(versions, undefined, '\t'));
+await Deno.writeTextFile('./versions.json', JSON.stringify(versions, undefined, '  '));
 
 await Deno.writeTextFile('./README.md', `# VS Code Versions
 
