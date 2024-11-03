@@ -201,8 +201,7 @@ async function getVsCodeVersions () {
 const versions = await getVsCodeVersions();
 await Deno.writeTextFile('./versions.json', JSON.stringify(versions, undefined, '\t'));
 
-await Deno.writeTextFile('./README.md', `
-# VS Code Versions
+await Deno.writeTextFile('./README.md', `# VS Code Versions
 
 An overview of the Electron, Node.js, and Chromium version in each VS Code release.
 
@@ -222,22 +221,15 @@ The scripts works by doing the following:
 
 1. Retrieve all the releases in the microsoft/vscode repo
 2. For each release
-   * Retrieve the Electron version in VS Code
-   * Retrieve the Chromium and Node.js versions in Electron
+   - Retrieve the Electron version in VS Code
+   - Retrieve the Chromium and Node.js versions in Electron
 3. Update the README file
 
 ## Running locally
 
 1. [Install Deno](https://deno.land/#installation)
 2. Create a .env file based on the .env.example file
-3. Run using the below command
-\`\`\`bash
-deno run \\
---allow-read=.env,.env.defaults,versions.json \\
---allow-write=.env,.env.defaults,versions.json,README.md \\
---allow-env=GITHUB_TOKEN \\
---allow-net=api.github.com,raw.githubusercontent.com \\
-index.ts
-\`\`\`
+3. Run using \`deno task run\`
+
 \`:bulb: If you need to update the cache provide the --no-cache flag after index.ts\`
 `);
