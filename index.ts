@@ -107,7 +107,7 @@ async function getElectronVersion(version: string): Promise<string> {
     rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.npmrc`);
   } catch (_) {
     // older versions used .yarnrc
-    rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.yarns`);
+    rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.yarnrc`);
   }
 
   const target = rcFile.match(/target[ =]"(\d.*)"/);
@@ -163,7 +163,13 @@ async function getCachedVersions(): Promise<VsCode[]> {
   if (noCache) {
     return [];
   }
-  return JSON.parse(await Deno.readTextFile("./versions.json"));
+
+
+  try {
+    return JSON.parse(await Deno.readTextFile("./versions.json"));
+  } catch (_) {
+    return [];
+  }
 }
 
 async function getVsCodeVersions() {
