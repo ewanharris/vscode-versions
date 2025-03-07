@@ -164,7 +164,6 @@ async function getCachedVersions(): Promise<VsCode[]> {
     return [];
   }
 
-
   try {
     return JSON.parse(await Deno.readTextFile("./versions.json"));
   } catch (_) {
