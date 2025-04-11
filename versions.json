@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.99.2",
+    "chromium": "132.0.6834.210",
+    "electron": "34.3.2",
+    "node": "20.18.3",
+    "name": "March 2025 Recovery 2",
+    "created_at": "2025-04-09T23:39:47Z"
+  },
+  {
     "version": "1.99.1",
     "chromium": "132.0.6834.210",
     "electron": "34.3.2",
