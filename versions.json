@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.102.2",
+    "chromium": "134.0.6998.205",
+    "electron": "35.6.0",
+    "node": "22.15.1",
+    "name": "June 2025 Recovery 2",
+    "created_at": "2025-07-21T12:58:15Z"
+  },
+  {
     "version": "1.102.1",
     "chromium": "134.0.6998.205",
     "electron": "35.6.0",
