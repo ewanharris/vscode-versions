@@ -2,7 +2,7 @@
 
 An overview of the Electron, Node.js, and Chromium version in each VS Code release.
 
-Last updated: 2026-01-24T00:20:25.686Z
+Last updated: 2026-01-25T00:23:41.551Z
 
 |                               VS Code                               |           Codename           | Electron |  Node   |    Chromium    |
 | :-----------------------------------------------------------------: | :--------------------------: | :------: | :-----: | :------------: |
