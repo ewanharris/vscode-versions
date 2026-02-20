@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.109.5",
+    "chromium": "142.0.7444.265",
+    "electron": "39.3.0",
+    "node": "22.21.1",
+    "name": "January 2026 Recovery 5",
+    "created_at": "2026-02-19T16:51:04Z"
+  },
+  {
     "version": "1.109.2",
     "chromium": "142.0.7444.265",
     "electron": "39.3.0",
