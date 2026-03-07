@@ -189,8 +189,13 @@ async function getVsCodeVersions() {
       getNodeVersion(electron),
     ]);
 
+    let version = tag_name;
+    if (tag_name.split(".").length === 2) {
+      version = `${tag_name}.0`;
+    }
+
     versions.push({
-      version: tag_name,
+      version,
       chromium,
       electron,
       node,
