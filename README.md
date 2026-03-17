@@ -2,12 +2,13 @@
 
 An overview of the Electron, Node.js, and Chromium version in each VS Code release.
 
-Last updated: 2026-03-16T00:30:26.062Z
+Last updated: 2026-03-17T00:26:09.599Z
 
 |                               VS Code                               |           Codename           | Electron |  Node   |    Chromium    |
 | :-----------------------------------------------------------------: | :--------------------------: | :------: | :-----: | :------------: |
 | [1.111.0](https://github.com/microsoft/vscode/releases/tag/1.111.0) |  March 2026 (version 1.111)  |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.1](https://github.com/microsoft/vscode/releases/tag/1.110.1) |   February 2026 Recovery 1   |  39.6.0  | 22.22.0 | 142.0.7444.265 |
+| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
