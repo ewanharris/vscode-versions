@@ -2,7 +2,7 @@
 
 An overview of the Electron, Node.js, and Chromium version in each VS Code release.
 
-Last updated: 2026-04-01T00:33:24.662Z
+Last updated: 2026-04-01T10:08:13.185Z
 
 |                               VS Code                               |           Codename           | Electron |  Node   |    Chromium    |
 | :-----------------------------------------------------------------: | :--------------------------: | :------: | :-----: | :------------: |
@@ -10,31 +10,6 @@ Last updated: 2026-04-01T00:33:24.662Z
 | [1.112.0](https://github.com/microsoft/vscode/releases/tag/1.112.0) |           1.112.0            |  39.8.0  | 22.22.0 | 142.0.7444.265 |
 | [1.111.0](https://github.com/microsoft/vscode/releases/tag/1.111.0) |  March 2026 (version 1.111)  |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.1](https://github.com/microsoft/vscode/releases/tag/1.110.1) |   February 2026 Recovery 1   |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.109.5](https://github.com/microsoft/vscode/releases/tag/1.109.5) |   January 2026 Recovery 5    |  39.3.0  | 22.21.1 | 142.0.7444.265 |
 | [1.109.2](https://github.com/microsoft/vscode/releases/tag/1.109.2) |   January 2026 Recovery 2    |  39.3.0  | 22.21.1 | 142.0.7444.265 |
