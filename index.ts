@@ -218,11 +218,11 @@ An overview of the Electron, Node.js, and Chromium version in each VS Code relea
 
 Last updated: ${new Date().toISOString()}
 
-|VS Code|Codename|Electron|Node|Chromium|
-|:-------:|:--------:|:--------:|:----:|:------:|
+|VS Code|Release Date|Electron|Node|Chromium|
+|:-------:|:----------:|:--------:|:----:|:------:|
 ${
     versions.map((version) => (
-      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.name}|${version.electron}|${version.node}|${version.chromium}|`
+      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.created_at.split("T")[0]}|${version.electron}|${version.node}|${version.chromium}|`
     )).join("\n")
   }
 
