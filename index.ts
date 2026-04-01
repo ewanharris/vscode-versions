@@ -2,12 +2,13 @@ import { compare, parse } from "@std/semver";
 
 const GITHUB_TOKEN = Deno.env.get("GITHUB_TOKEN");
 
-if (!GITHUB_TOKEN) {
+if (!GITHUB_TOKEN && !Deno.args.includes("--generate")) {
   console.error("No GITHUB_TOKEN value provided");
   Deno.exit(1);
 }
 
 const noCache = Deno.args.includes("--no-cache");
+const generateOnly = Deno.args.includes("--generate");
 
 interface Release {
   created_at: string;
@@ -173,42 +174,46 @@ async function getCachedVersions(): Promise<VsCode[]> {
 
 async function getVsCodeVersions() {
   const versions = await getCachedVersions();
-  const cachedVersions = versions.map((vscode) => vscode.version);
-  const releases = await githubApiRequest<Release[]>("https://api.github.com/repos/Microsoft/vscode/releases");
-  for (const release of releases) {
-    const { name, tag_name, created_at } = release;
-    let version = tag_name;
-    if (tag_name.split(".").length === 2) {
-      version = `${tag_name}.0`;
+  if (!generateOnly) {
+    const cachedVersions = versions.map((vscode) => vscode.version);
+    const releases = await githubApiRequest<Release[]>("https://api.github.com/repos/Microsoft/vscode/releases");
+    for (const release of releases) {
+      const { name, tag_name, created_at } = release;
+      let version = tag_name;
+      if (tag_name.split(".").length === 2) {
+        version = `${tag_name}.0`;
+      }
+
+      if (!noCache && cachedVersions.includes(version)) {
+        console.log(`Already have data for ${tag_name}`);
+        continue;
+      }
+      console.log(`Get versions for ${tag_name}`);
+      const electron = await getElectronVersion(tag_name);
+
+      const [chromium, node] = await Promise.all([
+        getChromiumVersion(electron),
+        getNodeVersion(electron),
+      ]);
+
+      versions.push({
+        version,
+        chromium,
+        electron,
+        node,
+        name,
+        created_at,
+      });
     }
-
-    if (!noCache && cachedVersions.includes(version)) {
-      console.log(`Already have data for ${tag_name}`);
-      continue;
-    }
-    console.log(`Get versions for ${tag_name}`);
-    const electron = await getElectronVersion(tag_name);
-
-    const [chromium, node] = await Promise.all([
-      getChromiumVersion(electron),
-      getNodeVersion(electron),
-    ]);
-
-    versions.push({
-      version,
-      chromium,
-      electron,
-      node,
-      name,
-      created_at,
-    });
   }
   // reverse sort to ensure we have latest versions at the top
   return versions.sort((a, b) => compare(parse(b.version), parse(a.version)));
 }
 
 const versions = await getVsCodeVersions();
-await Deno.writeTextFile("./versions.json", JSON.stringify(versions, undefined, "  "));
+if (!generateOnly) {
+  await Deno.writeTextFile("./versions.json", JSON.stringify(versions, undefined, "  "));
+}
 
 await Deno.writeTextFile(
   "./README.md",
@@ -222,7 +227,7 @@ Last updated: ${new Date().toISOString()}
 |:-------:|:--------:|:----------:|:--------:|:----:|:------:|
 ${
     versions.map((version) => (
-      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.name}|${version.created_at.split("T")[0]}|${version.electron}|${version.node}|${version.chromium}|`
+      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.name}|${version.created_at?.split("T")[0] ?? "Unknown"}|${version.electron}|${version.node}|${version.chromium}|`
     )).join("\n")
   }
 
