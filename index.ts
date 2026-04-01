@@ -177,7 +177,12 @@ async function getVsCodeVersions() {
   const releases = await githubApiRequest<Release[]>("https://api.github.com/repos/Microsoft/vscode/releases");
   for (const release of releases) {
     const { name, tag_name, created_at } = release;
-    if (!noCache && cachedVersions.includes(tag_name)) {
+    let version = tag_name;
+    if (tag_name.split(".").length === 2) {
+      version = `${tag_name}.0`;
+    }
+
+    if (!noCache && cachedVersions.includes(version)) {
       console.log(`Already have data for ${tag_name}`);
       continue;
     }
@@ -188,11 +193,6 @@ async function getVsCodeVersions() {
       getChromiumVersion(electron),
       getNodeVersion(electron),
     ]);
-
-    let version = tag_name;
-    if (tag_name.split(".").length === 2) {
-      version = `${tag_name}.0`;
-    }
 
     versions.push({
       version,
