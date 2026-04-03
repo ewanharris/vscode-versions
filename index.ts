@@ -227,7 +227,9 @@ Last updated: ${new Date().toISOString()}
 |:-------:|:--------:|:----------:|:--------:|:----:|:------:|
 ${
     versions.map((version) => (
-      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.name}|${version.created_at?.split("T")[0] ?? "Unknown"}|${version.electron}|${version.node}|${version.chromium}|`
+      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.name}|${
+        version.created_at?.split("T")[0] ?? "Unknown"
+      }|${version.electron}|${version.node}|${version.chromium}|`
     )).join("\n")
   }
 
