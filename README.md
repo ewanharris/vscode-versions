@@ -2,7 +2,7 @@
 
 An overview of the Electron, Node.js, and Chromium version in each VS Code release.
 
-Last updated: 2026-04-13T00:33:52.944Z
+Last updated: 2026-04-13T20:56:39.185Z
 
 |                               VS Code                               |           Codename           | Release Date | Electron |  Node   |    Chromium    |
 | :-----------------------------------------------------------------: | :--------------------------: | :----------: | :------: | :-----: | :------------: |
@@ -12,7 +12,7 @@ Last updated: 2026-04-13T00:33:52.944Z
 | [1.112.0](https://github.com/microsoft/vscode/releases/tag/1.112.0) |           1.112.0            |  2026-03-17  |  39.8.0  | 22.22.0 | 142.0.7444.265 |
 | [1.111.0](https://github.com/microsoft/vscode/releases/tag/1.111.0) |  March 2026 (version 1.111)  |  2026-03-06  |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.110.1](https://github.com/microsoft/vscode/releases/tag/1.110.1) |   February 2026 Recovery 1   |  2026-03-06  |  39.6.0  | 22.22.0 | 142.0.7444.265 |
-| [1.110.0](https://github.com/microsoft/vscode/releases/tag/1.110.0) |        February 2026         |  2026-03-04  |  39.6.0  | 22.22.0 | 142.0.7444.265 |
+|   [1.110](https://github.com/microsoft/vscode/releases/tag/1.110)   |        February 2026         |  2026-03-04  |  39.6.0  | 22.22.0 | 142.0.7444.265 |
 | [1.109.5](https://github.com/microsoft/vscode/releases/tag/1.109.5) |   January 2026 Recovery 5    |  2026-02-19  |  39.3.0  | 22.21.1 | 142.0.7444.265 |
 | [1.109.2](https://github.com/microsoft/vscode/releases/tag/1.109.2) |   January 2026 Recovery 2    |  2026-02-10  |  39.3.0  | 22.21.1 | 142.0.7444.265 |
 | [1.109.1](https://github.com/microsoft/vscode/releases/tag/1.109.1) |   January 2026 Recovery 1    |  2026-02-09  |  39.3.0  | 22.21.1 | 142.0.7444.265 |
@@ -28,9 +28,9 @@ Last updated: 2026-04-13T00:33:52.944Z
 | [1.106.0](https://github.com/microsoft/vscode/releases/tag/1.106.0) |         October 2025         |  2025-11-11  |  37.7.0  | 22.20.0 | 138.0.7204.251 |
 | [1.105.1](https://github.com/microsoft/vscode/releases/tag/1.105.1) |  September 2025 Recovery 1   |  2025-10-14  |  37.6.0  | 22.19.0 | 138.0.7204.251 |
 | [1.105.0](https://github.com/microsoft/vscode/releases/tag/1.105.0) |        September 2025        |  2025-10-08  |  37.6.0  | 22.19.0 | 138.0.7204.251 |
-| [1.104.3](https://github.com/microsoft/vscode/releases/tag/1.104.3) |    August 2025 Recovery 3    |  2025-09-23  |  37.3.1  | 22.18.0 | 138.0.7204.235 |
+| [1.104.3](https://github.com/microsoft/vscode/releases/tag/1.104.3) |    August 2025 Recovery 3    |  2025-10-02  |  37.3.1  | 22.18.0 | 138.0.7204.235 |
 | [1.104.2](https://github.com/microsoft/vscode/releases/tag/1.104.2) |    August 2025 Recovery 2    |  2025-09-23  |  37.3.1  | 22.18.0 | 138.0.7204.235 |
-| [1.104.1](https://github.com/microsoft/vscode/releases/tag/1.104.1) |    August 2025 Recovery 2    |  2025-09-17  |  37.3.1  | 22.18.0 | 138.0.7204.235 |
+| [1.104.1](https://github.com/microsoft/vscode/releases/tag/1.104.1) |    August 2025 Recovery 1    |  2025-09-17  |  37.3.1  | 22.18.0 | 138.0.7204.235 |
 | [1.104.0](https://github.com/microsoft/vscode/releases/tag/1.104.0) |         August 2025          |  2025-09-09  |  37.3.1  | 22.18.0 | 138.0.7204.235 |
 | [1.103.2](https://github.com/microsoft/vscode/releases/tag/1.103.2) |     July 2025 Recovery 2     |  2025-08-20  |  37.2.3  | 22.17.0 | 138.0.7204.100 |
 | [1.103.1](https://github.com/microsoft/vscode/releases/tag/1.103.1) |     July 2025 Recovery 1     |  2025-08-06  |  37.2.3  | 22.17.0 | 138.0.7204.100 |
@@ -79,7 +79,7 @@ Last updated: 2026-04-13T00:33:52.944Z
 |  [1.90.1](https://github.com/microsoft/vscode/releases/tag/1.90.1)  |     May 2024 Recovery 1      |  2024-06-11  |  29.4.0  | 20.9.0  | 122.0.6261.156 |
 |  [1.90.0](https://github.com/microsoft/vscode/releases/tag/1.90.0)  |           May 2024           |  2024-06-05  |  29.4.0  | 20.9.0  | 122.0.6261.156 |
 |  [1.89.1](https://github.com/microsoft/vscode/releases/tag/1.89.1)  |    April 2024 Recovery 1     |  2024-05-06  |  28.2.8  | 18.18.2 | 120.0.6099.291 |
-|  [1.89.0](https://github.com/microsoft/vscode/releases/tag/1.89.0)  |          April 2024          |  2024-05-02  |  28.2.8  | 18.18.2 | 120.0.6099.291 |
+|  [1.89.0](https://github.com/microsoft/vscode/releases/tag/1.89.0)  |          April 2024          |  2024-05-04  |  28.2.8  | 18.18.2 | 120.0.6099.291 |
 |  [1.88.1](https://github.com/microsoft/vscode/releases/tag/1.88.1)  |    March 2024 Recovery 1     |  2024-04-10  |  28.2.8  | 18.18.2 | 120.0.6099.291 |
 |  [1.88.0](https://github.com/microsoft/vscode/releases/tag/1.88.0)  |          March 2024          |  2024-04-03  |  28.2.8  | 18.18.2 | 120.0.6099.291 |
 |  [1.87.2](https://github.com/microsoft/vscode/releases/tag/1.87.2)  |   February 2024 Recovery 2   |  2024-03-08  |  27.3.2  | 18.17.1 | 118.0.5993.159 |
@@ -87,11 +87,11 @@ Last updated: 2026-04-13T00:33:52.944Z
 |  [1.87.0](https://github.com/microsoft/vscode/releases/tag/1.87.0)  |        February 2024         |  2024-02-27  |  27.3.2  | 18.17.1 | 118.0.5993.159 |
 |  [1.86.2](https://github.com/microsoft/vscode/releases/tag/1.86.2)  |   January 2024 Recovery 2    |  2024-02-13  |  27.2.3  | 18.17.1 | 118.0.5993.159 |
 |  [1.86.1](https://github.com/microsoft/vscode/releases/tag/1.86.1)  |   January 2024 Recovery 1    |  2024-02-07  |  27.2.3  | 18.17.1 | 118.0.5993.159 |
-|  [1.86.0](https://github.com/microsoft/vscode/releases/tag/1.86.0)  | January 2024 (version 1.86)  |  2024-01-31  |  27.2.3  | 18.17.1 | 118.0.5993.159 |
+|  [1.86.0](https://github.com/microsoft/vscode/releases/tag/1.86.0)  |         January 2024         |  2024-01-31  |  27.2.3  | 18.17.1 | 118.0.5993.159 |
 |  [1.85.2](https://github.com/microsoft/vscode/releases/tag/1.85.2)  |   November 2023 Recovery 2   |  2024-01-17  |  25.9.7  | 18.15.0 | 114.0.5735.289 |
-|  [1.85.1](https://github.com/microsoft/vscode/releases/tag/1.85.1)  |   November 2023 Recovery 1   |  2023-12-06  |  25.9.7  | 18.15.0 | 114.0.5735.289 |
+|  [1.85.1](https://github.com/microsoft/vscode/releases/tag/1.85.1)  |   November 2023 Recovery 1   |  2023-12-13  |  25.9.7  | 18.15.0 | 114.0.5735.289 |
 |  [1.85.0](https://github.com/microsoft/vscode/releases/tag/1.85.0)  |        November 2023         |  2023-12-06  |  25.9.7  | 18.15.0 | 114.0.5735.289 |
-|  [1.84.2](https://github.com/microsoft/vscode/releases/tag/1.84.2)  |   October 2023 Recovery 2    |  2023-11-06  |  25.9.2  | 18.15.0 | 114.0.5735.289 |
+|  [1.84.2](https://github.com/microsoft/vscode/releases/tag/1.84.2)  |   October 2023 Recovery 2    |  2023-11-09  |  25.9.2  | 18.15.0 | 114.0.5735.289 |
 |  [1.84.1](https://github.com/microsoft/vscode/releases/tag/1.84.1)  |   October 2023 Recovery 1    |  2023-11-06  |  25.9.2  | 18.15.0 | 114.0.5735.289 |
 |  [1.84.0](https://github.com/microsoft/vscode/releases/tag/1.84.0)  |         October 2023         |  2023-11-01  |  25.9.2  | 18.15.0 | 114.0.5735.289 |
 |  [1.83.1](https://github.com/microsoft/vscode/releases/tag/1.83.1)  |  September 2023 Recovery 1   |  2023-10-10  |  25.8.4  | 18.15.0 | 114.0.5735.289 |
@@ -126,7 +126,7 @@ Last updated: 2026-04-13T00:33:52.944Z
 |  [1.74.0](https://github.com/microsoft/vscode/releases/tag/1.74.0)  |        November 2022         |  2022-12-07  |  19.1.8  | 16.14.2 | 102.0.5005.167 |
 |  [1.73.1](https://github.com/microsoft/vscode/releases/tag/1.73.1)  |    October 2022 Recovery     |  2022-11-09  | 19.0.17  | 16.14.2 | 102.0.5005.167 |
 |  [1.73.0](https://github.com/microsoft/vscode/releases/tag/1.73.0)  |         October 2022         |  2022-11-02  | 19.0.17  | 16.14.2 | 102.0.5005.167 |
-|  [1.72.2](https://github.com/microsoft/vscode/releases/tag/1.72.2)  |  September 2022 Recovery 2   |  2022-10-10  | 19.0.17  | 16.14.2 | 102.0.5005.167 |
+|  [1.72.2](https://github.com/microsoft/vscode/releases/tag/1.72.2)  |  September 2022 Recovery 2   |  2022-10-12  | 19.0.17  | 16.14.2 | 102.0.5005.167 |
 |  [1.72.1](https://github.com/microsoft/vscode/releases/tag/1.72.1)  |   September 2022 Recovery    |  2022-10-10  | 19.0.17  | 16.14.2 | 102.0.5005.167 |
 |  [1.72.0](https://github.com/microsoft/vscode/releases/tag/1.72.0)  |        September 2022        |  2022-10-04  | 19.0.17  | 16.14.2 | 102.0.5005.167 |
 |  [1.71.2](https://github.com/microsoft/vscode/releases/tag/1.71.2)  |    August 2022 Recovery 2    |  2022-09-14  | 19.0.12  | 16.14.2 | 102.0.5005.167 |

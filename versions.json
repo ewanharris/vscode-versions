@@ -5,7 +5,8 @@
     "electron": "39.8.5",
     "node": "22.22.1",
     "name": "1.115.0",
-    "created_at": "2026-04-07T22:04:57Z"
+    "created_at": "2026-04-07T22:04:57Z",
+    "tag_name": "1.115.0"
   },
   {
     "version": "1.114.0",
@@ -13,7 +14,8 @@
     "electron": "39.8.3",
     "node": "22.22.1",
     "name": "1.114.0",
-    "created_at": "2026-04-01T09:27:11Z"
+    "created_at": "2026-04-01T09:27:11Z",
+    "tag_name": "1.114.0"
   },
   {
     "version": "1.113.0",
@@ -21,7 +23,8 @@
     "electron": "39.8.3",
     "node": "22.22.1",
     "name": "1.113.0",
-    "created_at": "2026-03-24T14:07:18Z"
+    "created_at": "2026-03-24T14:07:18Z",
+    "tag_name": "1.113.0"
   },
   {
     "version": "1.112.0",
@@ -29,7 +32,8 @@
     "electron": "39.8.0",
     "node": "22.22.0",
     "name": "1.112.0",
-    "created_at": "2026-03-17T18:09:23Z"
+    "created_at": "2026-03-17T18:09:23Z",
+    "tag_name": "1.112.0"
   },
   {
     "version": "1.111.0",
@@ -37,7 +41,8 @@
     "electron": "39.6.0",
     "node": "22.22.0",
     "name": "March 2026 (version 1.111)",
-    "created_at": "2026-03-06T23:06:10Z"
+    "created_at": "2026-03-06T23:06:10Z",
+    "tag_name": "1.111.0"
   },
   {
     "version": "1.110.1",
@@ -45,7 +50,8 @@
     "electron": "39.6.0",
     "node": "22.22.0",
     "name": "February 2026 Recovery 1",
-    "created_at": "2026-03-06T22:53:57Z"
+    "created_at": "2026-03-06T22:53:57Z",
+    "tag_name": "1.110.1"
   },
   {
     "version": "1.110.0",
@@ -53,7 +59,8 @@
     "electron": "39.6.0",
     "node": "22.22.0",
     "name": "February 2026",
-    "created_at": "2026-03-04T00:50:04Z"
+    "created_at": "2026-03-04T00:50:04Z",
+    "tag_name": "1.110"
   },
   {
     "version": "1.109.5",
@@ -61,7 +68,8 @@
     "electron": "39.3.0",
     "node": "22.21.1",
     "name": "January 2026 Recovery 5",
-    "created_at": "2026-02-19T16:51:04Z"
+    "created_at": "2026-02-19T16:51:04Z",
+    "tag_name": "1.109.5"
   },
   {
     "version": "1.109.2",
@@ -69,7 +77,8 @@
     "electron": "39.3.0",
     "node": "22.21.1",
     "name": "January 2026 Recovery 2",
-    "created_at": "2026-02-10T20:08:27Z"
+    "created_at": "2026-02-10T20:08:27Z",
+    "tag_name": "1.109.2"
   },
   {
     "version": "1.109.1",
@@ -77,7 +86,8 @@
     "electron": "39.3.0",
     "node": "22.21.1",
     "name": "January 2026 Recovery 1",
-    "created_at": "2026-02-09T16:02:15Z"
+    "created_at": "2026-02-09T16:02:15Z",
+    "tag_name": "1.109.1"
   },
   {
     "version": "1.109.0",
@@ -85,7 +95,8 @@
     "electron": "39.3.0",
     "node": "22.21.1",
     "name": "January 2026",
-    "created_at": "2026-02-04T01:55:52Z"
+    "created_at": "2026-02-04T01:55:52Z",
+    "tag_name": "1.109.0"
   },
   {
     "version": "1.108.2",
@@ -93,7 +104,8 @@
     "electron": "39.2.7",
     "node": "22.21.1",
     "name": "December 2025 Recovery 2",
-    "created_at": "2026-01-21T13:41:27Z"
+    "created_at": "2026-01-21T13:41:27Z",
+    "tag_name": "1.108.2"
   },
   {
     "version": "1.108.1",
@@ -101,7 +113,8 @@
     "electron": "39.2.7",
     "node": "22.21.1",
     "name": "December 2025 Recovery 1",
-    "created_at": "2026-01-13T21:16:20Z"
+    "created_at": "2026-01-13T21:16:20Z",
+    "tag_name": "1.108.1"
   },
   {
     "version": "1.108.0",
@@ -109,7 +122,8 @@
     "electron": "39.2.7",
     "node": "22.21.1",
     "name": "December 2025",
-    "created_at": "2026-01-08T12:59:30Z"
+    "created_at": "2026-01-08T12:59:30Z",
+    "tag_name": "1.108.0"
   },
   {
     "version": "1.107.1",
@@ -117,7 +131,8 @@
     "electron": "39.2.3",
     "node": "22.21.1",
     "name": "November 2025 Recovery 1",
-    "created_at": "2025-12-17T13:53:50Z"
+    "created_at": "2025-12-17T13:53:50Z",
+    "tag_name": "1.107.1"
   },
   {
     "version": "1.107.0",
@@ -125,7 +140,8 @@
     "electron": "39.2.3",
     "node": "22.21.1",
     "name": "November 2025",
-    "created_at": "2025-12-10T18:02:22Z"
+    "created_at": "2025-12-10T18:02:22Z",
+    "tag_name": "1.107.0"
   },
   {
     "version": "1.106.3",
@@ -133,7 +149,8 @@
     "electron": "37.7.0",
     "node": "22.20.0",
     "name": "October 2025 Recovery 3",
-    "created_at": "2025-11-25T22:06:45Z"
+    "created_at": "2025-11-25T22:06:45Z",
+    "tag_name": "1.106.3"
   },
   {
     "version": "1.106.2",
@@ -141,7 +158,8 @@
     "electron": "37.7.0",
     "node": "22.20.0",
     "name": "October 2025 Recovery 2",
-    "created_at": "2025-11-19T16:49:37Z"
+    "created_at": "2025-11-19T16:49:37Z",
+    "tag_name": "1.106.2"
   },
   {
     "version": "1.106.1",
@@ -149,7 +167,8 @@
     "electron": "37.7.0",
     "node": "22.20.0",
     "name": "October 2025 Recovery 1",
-    "created_at": "2025-11-16T10:10:37Z"
+    "created_at": "2025-11-16T10:10:37Z",
+    "tag_name": "1.106.1"
   },
   {
     "version": "1.106.0",
@@ -157,7 +176,8 @@
     "electron": "37.7.0",
     "node": "22.20.0",
     "name": "October 2025",
-    "created_at": "2025-11-11T14:25:32Z"
+    "created_at": "2025-11-11T14:25:32Z",
+    "tag_name": "1.106.0"
   },
   {
     "version": "1.105.1",
@@ -165,7 +185,8 @@
     "electron": "37.6.0",
     "node": "22.19.0",
     "name": "September 2025 Recovery 1",
-    "created_at": "2025-10-14T22:27:18Z"
+    "created_at": "2025-10-14T22:27:18Z",
+    "tag_name": "1.105.1"
   },
   {
     "version": "1.105.0",
@@ -173,7 +194,8 @@
     "electron": "37.6.0",
     "node": "22.19.0",
     "name": "September 2025",
-    "created_at": "2025-10-08T13:50:39Z"
+    "created_at": "2025-10-08T13:50:39Z",
+    "tag_name": "1.105.0"
   },
   {
     "version": "1.104.3",
@@ -181,7 +203,8 @@
     "electron": "37.3.1",
     "node": "22.18.0",
     "name": "August 2025 Recovery 3",
-    "created_at": "2025-09-23T22:00:30Z"
+    "created_at": "2025-10-02T12:17:24Z",
+    "tag_name": "1.104.3"
   },
   {
     "version": "1.104.2",
@@ -189,15 +212,17 @@
     "electron": "37.3.1",
     "node": "22.18.0",
     "name": "August 2025 Recovery 2",
-    "created_at": "2025-09-23T22:00:30Z"
+    "created_at": "2025-09-23T22:00:30Z",
+    "tag_name": "1.104.2"
   },
   {
     "version": "1.104.1",
     "chromium": "138.0.7204.235",
     "electron": "37.3.1",
     "node": "22.18.0",
-    "name": "August 2025 Recovery 2",
-    "created_at": "2025-09-17T23:30:36Z"
+    "name": "August 2025 Recovery 1",
+    "created_at": "2025-09-17T23:30:36Z",
+    "tag_name": "1.104.1"
   },
   {
     "version": "1.104.0",
@@ -205,7 +230,8 @@
     "electron": "37.3.1",
     "node": "22.18.0",
     "name": "August 2025",
-    "created_at": "2025-09-09T22:02:15Z"
+    "created_at": "2025-09-09T22:02:15Z",
+    "tag_name": "1.104.0"
   },
   {
     "version": "1.103.2",
@@ -213,7 +239,8 @@
     "electron": "37.2.3",
     "node": "22.17.0",
     "name": "July 2025 Recovery 2",
-    "created_at": "2025-08-20T15:13:53Z"
+    "created_at": "2025-08-20T15:13:53Z",
+    "tag_name": "1.103.2"
   },
   {
     "version": "1.103.1",
@@ -221,7 +248,8 @@
     "electron": "37.2.3",
     "node": "22.17.0",
     "name": "July 2025 Recovery 1",
-    "created_at": "2025-08-06T20:09:28Z"
+    "created_at": "2025-08-06T20:09:28Z",
+    "tag_name": "1.103.1"
   },
   {
     "version": "1.103.0",
@@ -229,7 +257,8 @@
     "electron": "37.2.3",
     "node": "22.17.0",
     "name": "July 2025",
-    "created_at": "2025-08-06T20:09:28Z"
+    "created_at": "2025-08-06T20:09:28Z",
+    "tag_name": "1.103.0"
   },
   {
     "version": "1.102.3",
@@ -237,7 +266,8 @@
     "electron": "35.6.0",
     "node": "22.15.1",
     "name": "June 2025 Recovery 3",
-    "created_at": "2025-07-29T02:38:03Z"
+    "created_at": "2025-07-29T02:38:03Z",
+    "tag_name": "1.102.3"
   },
   {
     "version": "1.102.2",
@@ -245,7 +275,8 @@
     "electron": "35.6.0",
     "node": "22.15.1",
     "name": "June 2025 Recovery 2",
-    "created_at": "2025-07-21T12:58:15Z"
+    "created_at": "2025-07-21T12:58:15Z",
+    "tag_name": "1.102.2"
   },
   {
     "version": "1.102.1",
@@ -253,7 +284,8 @@
     "electron": "35.6.0",
     "node": "22.15.1",
     "name": "June 2025 Recovery 1",
-    "created_at": "2025-07-15T14:40:12Z"
+    "created_at": "2025-07-15T14:40:12Z",
+    "tag_name": "1.102.1"
   },
   {
     "version": "1.102.0",
@@ -261,7 +293,8 @@
     "electron": "35.6.0",
     "node": "22.15.1",
     "name": "June 2025",
-    "created_at": "2025-07-09T22:00:36Z"
+    "created_at": "2025-07-09T22:00:36Z",
+    "tag_name": "1.102.0"
   },
   {
     "version": "1.101.2",
@@ -269,7 +302,8 @@
     "electron": "35.5.1",
     "node": "22.15.1",
     "name": "May 2025 Recovery 2",
-    "created_at": "2025-06-24T20:22:47Z"
+    "created_at": "2025-06-24T20:22:47Z",
+    "tag_name": "1.101.2"
   },
   {
     "version": "1.101.1",
@@ -277,7 +311,8 @@
     "electron": "35.5.1",
     "node": "22.15.1",
     "name": "May 2025 Recovery 1",
-    "created_at": "2025-06-18T13:24:11Z"
+    "created_at": "2025-06-18T13:24:11Z",
+    "tag_name": "1.101.1"
   },
   {
     "version": "1.101.0",
@@ -285,7 +320,8 @@
     "electron": "35.5.1",
     "node": "22.15.1",
     "name": "May 2025",
-    "created_at": "2025-06-11T13:47:56Z"
+    "created_at": "2025-06-11T13:47:56Z",
+    "tag_name": "1.101.0"
   },
   {
     "version": "1.100.3",
@@ -293,7 +329,8 @@
     "electron": "34.5.1",
     "node": "20.19.0",
     "name": "April 2025 Recovery 3",
-    "created_at": "2025-06-02T13:19:26Z"
+    "created_at": "2025-06-02T13:19:26Z",
+    "tag_name": "1.100.3"
   },
   {
     "version": "1.100.2",
@@ -301,7 +338,8 @@
     "electron": "34.5.1",
     "node": "20.19.0",
     "name": "April 2025 Recovery 2",
-    "created_at": "2025-05-14T21:40:56Z"
+    "created_at": "2025-05-14T21:40:56Z",
+    "tag_name": "1.100.2"
   },
   {
     "version": "1.100.1",
@@ -309,7 +347,8 @@
     "electron": "34.5.1",
     "node": "20.19.0",
     "name": "April 2025 Recovery 1",
-    "created_at": "2025-05-13T17:20:41Z"
+    "created_at": "2025-05-13T17:20:41Z",
+    "tag_name": "1.100.1"
   },
   {
     "version": "1.100.0",
@@ -317,7 +356,8 @@
     "electron": "34.5.1",
     "node": "20.19.0",
     "name": "April 2025",
-    "created_at": "2025-05-07T12:32:30Z"
+    "created_at": "2025-05-07T12:32:30Z",
+    "tag_name": "1.100.0"
   },
   {
     "version": "1.99.3",
@@ -325,7 +365,8 @@
     "electron": "34.3.2",
     "node": "20.18.3",
     "name": "March 2025 Recovery 3",
-    "created_at": "2025-04-15T23:10:26Z"
+    "created_at": "2025-04-15T23:10:26Z",
+    "tag_name": "1.99.3"
   },
   {
     "version": "1.99.2",
@@ -333,7 +374,8 @@
     "electron": "34.3.2",
     "node": "20.18.3",
     "name": "March 2025 Recovery 2",
-    "created_at": "2025-04-09T23:39:47Z"
+    "created_at": "2025-04-09T23:39:47Z",
+    "tag_name": "1.99.2"
   },
   {
     "version": "1.99.1",
@@ -341,7 +383,8 @@
     "electron": "34.3.2",
     "node": "20.18.3",
     "name": "March 2025 Recovery 1",
-    "created_at": "2025-04-04T15:54:57Z"
+    "created_at": "2025-04-04T15:54:57Z",
+    "tag_name": "1.99.1"
   },
   {
     "version": "1.99.0",
@@ -349,7 +392,8 @@
     "electron": "34.3.2",
     "node": "20.18.3",
     "name": "March 2025",
-    "created_at": "2025-04-02T21:04:16Z"
+    "created_at": "2025-04-02T21:04:16Z",
+    "tag_name": "1.99.0"
   },
   {
     "version": "1.98.2",
@@ -357,7 +401,8 @@
     "electron": "34.2.0",
     "node": "20.18.2",
     "name": "February 2025 Recovery 2",
-    "created_at": "2025-03-12T13:24:52Z"
+    "created_at": "2025-03-12T13:24:52Z",
+    "tag_name": "1.98.2"
   },
   {
     "version": "1.98.1",
@@ -365,7 +410,8 @@
     "electron": "34.2.0",
     "node": "20.18.2",
     "name": "February 2025 Recovery 1",
-    "created_at": "2025-03-10T15:26:31Z"
+    "created_at": "2025-03-10T15:26:31Z",
+    "tag_name": "1.98.1"
   },
   {
     "version": "1.98.0",
@@ -373,7 +419,8 @@
     "electron": "34.2.0",
     "node": "20.18.2",
     "name": "February 2025",
-    "created_at": "2025-03-04T18:57:48Z"
+    "created_at": "2025-03-04T18:57:48Z",
+    "tag_name": "1.98.0"
   },
   {
     "version": "1.97.2",
@@ -381,7 +428,8 @@
     "electron": "32.2.7",
     "node": "20.18.1",
     "name": "January 2025 Recovery 2",
-    "created_at": "2025-02-12T14:18:30Z"
+    "created_at": "2025-02-12T14:18:30Z",
+    "tag_name": "1.97.2"
   },
   {
     "version": "1.97.1",
@@ -389,7 +437,8 @@
     "electron": "32.2.7",
     "node": "20.18.1",
     "name": "January 2025 Recovery 1",
-    "created_at": "2025-02-10T13:07:56Z"
+    "created_at": "2025-02-10T13:07:56Z",
+    "tag_name": "1.97.1"
   },
   {
     "version": "1.97.0",
@@ -397,7 +446,8 @@
     "electron": "32.2.7",
     "node": "20.18.1",
     "name": "January 2025",
-    "created_at": "2025-02-04T18:19:16Z"
+    "created_at": "2025-02-04T18:19:16Z",
+    "tag_name": "1.97.0"
   },
   {
     "version": "1.96.4",
@@ -405,7 +455,8 @@
     "electron": "32.2.6",
     "node": "20.18.1",
     "name": "November 2024 Recovery 4",
-    "created_at": "2025-01-16T00:03:51Z"
+    "created_at": "2025-01-16T00:03:51Z",
+    "tag_name": "1.96.4"
   },
   {
     "version": "1.96.3",
@@ -413,7 +464,8 @@
     "electron": "32.2.6",
     "node": "20.18.1",
     "name": "November 2024 Recovery 3",
-    "created_at": "2025-01-09T15:35:11Z"
+    "created_at": "2025-01-09T15:35:11Z",
+    "tag_name": "1.96.3"
   },
   {
     "version": "1.96.2",
@@ -421,7 +473,8 @@
     "electron": "32.2.6",
     "node": "20.18.1",
     "name": "November 2024 Recovery 2",
-    "created_at": "2024-12-19T10:13:25Z"
+    "created_at": "2024-12-19T10:13:25Z",
+    "tag_name": "1.96.2"
   },
   {
     "version": "1.96.1",
@@ -429,7 +482,8 @@
     "electron": "32.2.6",
     "node": "20.18.1",
     "name": "November 2024 Recovery 1",
-    "created_at": "2024-12-17T17:46:06Z"
+    "created_at": "2024-12-17T17:46:06Z",
+    "tag_name": "1.96.1"
   },
   {
     "version": "1.96.0",
@@ -437,7 +491,8 @@
     "electron": "32.2.6",
     "node": "20.18.1",
     "name": "November 2024",
-    "created_at": "2024-12-10T22:22:47Z"
+    "created_at": "2024-12-10T22:22:47Z",
+    "tag_name": "1.96.0"
   },
   {
     "version": "1.95.3",
@@ -445,7 +500,8 @@
     "electron": "32.2.1",
     "node": "20.18.0",
     "name": "October 2024 Recovery 3",
-    "created_at": "2024-11-13T14:45:08Z"
+    "created_at": "2024-11-13T14:45:08Z",
+    "tag_name": "1.95.3"
   },
   {
     "version": "1.95.2",
@@ -453,7 +509,8 @@
     "electron": "32.2.1",
     "node": "20.18.0",
     "name": "October 2024 Recovery 2",
-    "created_at": "2024-11-07T11:01:40Z"
+    "created_at": "2024-11-07T11:01:40Z",
+    "tag_name": "1.95.2"
   },
   {
     "version": "1.95.1",
@@ -461,7 +518,8 @@
     "electron": "32.2.1",
     "node": "20.18.0",
     "name": "October 2024 Recovery 1",
-    "created_at": "2024-10-31T05:10:14Z"
+    "created_at": "2024-10-31T05:10:14Z",
+    "tag_name": "1.95.1"
   },
   {
     "version": "1.95.0",
@@ -469,7 +527,8 @@
     "electron": "32.2.1",
     "node": "20.18.0",
     "name": "October 2024",
-    "created_at": "2024-10-28T16:08:10Z"
+    "created_at": "2024-10-28T16:08:10Z",
+    "tag_name": "1.95.0"
   },
   {
     "version": "1.94.2",
@@ -477,7 +536,8 @@
     "electron": "30.5.1",
     "node": "20.16.0",
     "name": "September Recovery 2",
-    "created_at": "2024-10-09T09:20:17Z"
+    "created_at": "2024-10-09T09:20:17Z",
+    "tag_name": "1.94.2"
   },
   {
     "version": "1.94.1",
@@ -485,7 +545,8 @@
     "electron": "30.5.1",
     "node": "20.16.0",
     "name": "September Recovery 1",
-    "created_at": "2024-10-08T17:25:57Z"
+    "created_at": "2024-10-08T17:25:57Z",
+    "tag_name": "1.94.1"
   },
   {
     "version": "1.94.0",
@@ -493,7 +554,8 @@
     "electron": "30.5.1",
     "node": "20.16.0",
     "name": "September 2024",
-    "created_at": "2024-10-02T12:59:59Z"
+    "created_at": "2024-10-02T12:59:59Z",
+    "tag_name": "1.94.0"
   },
   {
     "version": "1.93.1",
@@ -501,7 +563,8 @@
     "electron": "30.4.0",
     "node": "20.15.1",
     "name": "August 2024 Recovery 1",
-    "created_at": "2024-09-11T17:13:36Z"
+    "created_at": "2024-09-11T17:13:36Z",
+    "tag_name": "1.93.1"
   },
   {
     "version": "1.93.0",
@@ -509,7 +572,8 @@
     "electron": "30.4.0",
     "node": "20.15.1",
     "name": "August 2024",
-    "created_at": "2024-09-04T12:53:09Z"
+    "created_at": "2024-09-04T12:53:09Z",
+    "tag_name": "1.93.0"
   },
   {
     "version": "1.92.2",
@@ -517,7 +581,8 @@
     "electron": "30.1.2",
     "node": "20.14.0",
     "name": "July 2024 Recovery 2",
-    "created_at": "2024-08-14T17:23:32Z"
+    "created_at": "2024-08-14T17:23:32Z",
+    "tag_name": "1.92.2"
   },
   {
     "version": "1.92.1",
@@ -525,7 +590,8 @@
     "electron": "30.1.2",
     "node": "20.14.0",
     "name": "July 2024 Recovery 1",
-    "created_at": "2024-08-07T20:11:03Z"
+    "created_at": "2024-08-07T20:11:03Z",
+    "tag_name": "1.92.1"
   },
   {
     "version": "1.92.0",
@@ -533,7 +599,8 @@
     "electron": "30.1.2",
     "node": "20.14.0",
     "name": "July 2024",
-    "created_at": "2024-07-31T20:26:36Z"
+    "created_at": "2024-07-31T20:26:36Z",
+    "tag_name": "1.92.0"
   },
   {
     "version": "1.91.1",
@@ -541,7 +608,8 @@
     "electron": "29.4.0",
     "node": "20.9.0",
     "name": "June 2024 Recovery 1",
-    "created_at": "2024-07-09T12:51:23Z"
+    "created_at": "2024-07-09T12:51:23Z",
+    "tag_name": "1.91.1"
   },
   {
     "version": "1.91.0",
@@ -549,7 +617,8 @@
     "electron": "29.4.0",
     "node": "20.9.0",
     "name": "June 2024",
-    "created_at": "2024-07-01T13:21:17Z"
+    "created_at": "2024-07-01T13:21:17Z",
+    "tag_name": "1.91.0"
   },
   {
     "version": "1.90.2",
@@ -557,7 +626,8 @@
     "electron": "29.4.0",
     "node": "20.9.0",
     "name": "May 2024 Recovery 2",
-    "created_at": "2024-06-18T20:06:05Z"
+    "created_at": "2024-06-18T20:06:05Z",
+    "tag_name": "1.90.2"
   },
   {
     "version": "1.90.1",
@@ -565,7 +635,8 @@
     "electron": "29.4.0",
     "node": "20.9.0",
     "name": "May 2024 Recovery 1",
-    "created_at": "2024-06-11T20:10:12Z"
+    "created_at": "2024-06-11T20:10:12Z",
+    "tag_name": "1.90.1"
   },
   {
     "version": "1.90.0",
@@ -573,7 +644,8 @@
     "electron": "29.4.0",
     "node": "20.9.0",
     "name": "May 2024",
-    "created_at": "2024-06-05T21:09:24Z"
+    "created_at": "2024-06-05T21:09:24Z",
+    "tag_name": "1.90.0"
   },
   {
     "version": "1.89.1",
@@ -581,7 +653,8 @@
     "electron": "28.2.8",
     "node": "18.18.2",
     "name": "April 2024 Recovery 1",
-    "created_at": "2024-05-06T15:42:24Z"
+    "created_at": "2024-05-06T15:42:24Z",
+    "tag_name": "1.89.1"
   },
   {
     "version": "1.89.0",
@@ -589,7 +662,8 @@
     "electron": "28.2.8",
     "node": "18.18.2",
     "name": "April 2024",
-    "created_at": "2024-05-02T16:56:15Z"
+    "created_at": "2024-05-04T15:25:08Z",
+    "tag_name": "1.89.0"
   },
   {
     "version": "1.88.1",
@@ -597,7 +671,8 @@
     "electron": "28.2.8",
     "node": "18.18.2",
     "name": "March 2024 Recovery 1",
-    "created_at": "2024-04-10T16:31:46Z"
+    "created_at": "2024-04-10T16:31:46Z",
+    "tag_name": "1.88.1"
   },
   {
     "version": "1.88.0",
@@ -605,7 +680,8 @@
     "electron": "28.2.8",
     "node": "18.18.2",
     "name": "March 2024",
-    "created_at": "2024-04-03T11:03:33Z"
+    "created_at": "2024-04-03T11:03:33Z",
+    "tag_name": "1.88.0"
   },
   {
     "version": "1.87.2",
@@ -613,7 +689,8 @@
     "electron": "27.3.2",
     "node": "18.17.1",
     "name": "February 2024 Recovery 2",
-    "created_at": "2024-03-08T14:18:51Z"
+    "created_at": "2024-03-08T14:18:51Z",
+    "tag_name": "1.87.2"
   },
   {
     "version": "1.87.1",
@@ -621,7 +698,8 @@
     "electron": "27.3.2",
     "node": "18.17.1",
     "name": "February 2024 Recovery 1",
-    "created_at": "2024-03-05T15:59:58Z"
+    "created_at": "2024-03-05T15:59:58Z",
+    "tag_name": "1.87.1"
   },
   {
     "version": "1.87.0",
@@ -629,7 +707,8 @@
     "electron": "27.3.2",
     "node": "18.17.1",
     "name": "February 2024",
-    "created_at": "2024-02-27T22:50:23Z"
+    "created_at": "2024-02-27T22:50:23Z",
+    "tag_name": "1.87.0"
   },
   {
     "version": "1.86.2",
@@ -637,7 +716,8 @@
     "electron": "27.2.3",
     "node": "18.17.1",
     "name": "January 2024 Recovery 2",
-    "created_at": "2024-02-13T17:10:22Z"
+    "created_at": "2024-02-13T17:10:22Z",
+    "tag_name": "1.86.2"
   },
   {
     "version": "1.86.1",
@@ -645,15 +725,17 @@
     "electron": "27.2.3",
     "node": "18.17.1",
     "name": "January 2024 Recovery 1",
-    "created_at": "2024-02-07T08:28:46Z"
+    "created_at": "2024-02-07T08:28:46Z",
+    "tag_name": "1.86.1"
   },
   {
     "version": "1.86.0",
     "chromium": "118.0.5993.159",
     "electron": "27.2.3",
     "node": "18.17.1",
-    "name": "January 2024 (version 1.86)",
-    "created_at": "2024-01-31T22:36:21Z"
+    "name": "January 2024",
+    "created_at": "2024-01-31T22:36:21Z",
+    "tag_name": "1.86.0"
   },
   {
     "version": "1.85.2",
@@ -661,7 +743,8 @@
     "electron": "25.9.7",
     "node": "18.15.0",
     "name": "November 2023 Recovery 2",
-    "created_at": "2024-01-17T20:15:12Z"
+    "created_at": "2024-01-17T20:15:12Z",
+    "tag_name": "1.85.2"
   },
   {
     "version": "1.85.1",
@@ -669,7 +752,8 @@
     "electron": "25.9.7",
     "node": "18.15.0",
     "name": "November 2023 Recovery 1",
-    "created_at": "2023-12-06T10:36:56Z"
+    "created_at": "2023-12-13T09:08:58Z",
+    "tag_name": "1.85.1"
   },
   {
     "version": "1.85.0",
@@ -677,7 +761,8 @@
     "electron": "25.9.7",
     "node": "18.15.0",
     "name": "November 2023",
-    "created_at": "2023-12-06T10:36:56Z"
+    "created_at": "2023-12-06T10:36:56Z",
+    "tag_name": "1.85.0"
   },
   {
     "version": "1.84.2",
@@ -685,7 +770,8 @@
     "electron": "25.9.2",
     "node": "18.15.0",
     "name": "October 2023 Recovery 2",
-    "created_at": "2023-11-06T11:52:58Z"
+    "created_at": "2023-11-09T10:14:15Z",
+    "tag_name": "1.84.2"
   },
   {
     "version": "1.84.1",
@@ -693,7 +779,8 @@
     "electron": "25.9.2",
     "node": "18.15.0",
     "name": "October 2023 Recovery 1",
-    "created_at": "2023-11-06T11:52:58Z"
+    "created_at": "2023-11-06T11:52:58Z",
+    "tag_name": "1.84.1"
   },
   {
     "version": "1.84.0",
@@ -701,7 +788,8 @@
     "electron": "25.9.2",
     "node": "18.15.0",
     "name": "October 2023",
-    "created_at": "2023-11-01T09:39:20Z"
+    "created_at": "2023-11-01T09:39:20Z",
+    "tag_name": "1.84.0"
   },
   {
     "version": "1.83.1",
@@ -709,7 +797,8 @@
     "electron": "25.8.4",
     "node": "18.15.0",
     "name": "September 2023 Recovery 1",
-    "created_at": "2023-10-10T23:05:55Z"
+    "created_at": "2023-10-10T23:05:55Z",
+    "tag_name": "1.83.1"
   },
   {
     "version": "1.83.0",
@@ -717,7 +806,8 @@
     "electron": "25.8.4",
     "node": "18.15.0",
     "name": "September 2023",
-    "created_at": "2023-10-03T13:06:11Z"
+    "created_at": "2023-10-03T13:06:11Z",
+    "tag_name": "1.83.0"
   },
   {
     "version": "1.82.3",
@@ -725,7 +815,8 @@
     "electron": "25.8.1",
     "node": "18.15.0",
     "name": "August 2023 Recovery 3",
-    "created_at": "2023-10-02T10:12:19Z"
+    "created_at": "2023-10-02T10:12:19Z",
+    "tag_name": "1.82.3"
   },
   {
     "version": "1.82.2",
@@ -733,7 +824,8 @@
     "electron": "25.8.1",
     "node": "18.15.0",
     "name": "August 2023 Recovery 2",
-    "created_at": "2023-09-14T05:02:21Z"
+    "created_at": "2023-09-14T05:02:21Z",
+    "tag_name": "1.82.2"
   },
   {
     "version": "1.82.1",
@@ -741,7 +833,8 @@
     "electron": "25.8.0",
     "node": "18.15.0",
     "name": "August 2023 Recovery 1",
-    "created_at": "2023-09-08T07:56:06Z"
+    "created_at": "2023-09-08T07:56:06Z",
+    "tag_name": "1.82.1"
   },
   {
     "version": "1.82.0",
@@ -749,7 +842,8 @@
     "electron": "25.8.0",
     "node": "18.15.0",
     "name": "August 2023",
-    "created_at": "2023-09-06T21:00:17Z"
+    "created_at": "2023-09-06T21:00:17Z",
+    "tag_name": "1.82.0"
   },
   {
     "version": "1.81.1",
@@ -757,7 +851,8 @@
     "electron": "22.3.18",
     "node": "16.17.1",
     "name": "July 2023 Recovery 1",
-    "created_at": "2023-08-09T21:15:31Z"
+    "created_at": "2023-08-09T21:15:31Z",
+    "tag_name": "1.81.1"
   },
   {
     "version": "1.81.0",
@@ -765,7 +860,8 @@
     "electron": "22.3.18",
     "node": "16.17.1",
     "name": "July 2023",
-    "created_at": "2023-08-02T11:59:07Z"
+    "created_at": "2023-08-02T11:59:07Z",
+    "tag_name": "1.81.0"
   },
   {
     "version": "1.80.2",
@@ -773,7 +869,8 @@
     "electron": "22.3.14",
     "node": "16.17.1",
     "name": "June 2023 Recovery 2",
-    "created_at": "2023-07-27T19:26:03Z"
+    "created_at": "2023-07-27T19:26:03Z",
+    "tag_name": "1.80.2"
   },
   {
     "version": "1.80.1",
@@ -781,7 +878,8 @@
     "electron": "22.3.14",
     "node": "16.17.1",
     "name": "June 2023 Recovery 1",
-    "created_at": "2023-07-12T16:45:52Z"
+    "created_at": "2023-07-12T16:45:52Z",
+    "tag_name": "1.80.1"
   },
   {
     "version": "1.80.0",
@@ -789,7 +887,8 @@
     "electron": "22.3.14",
     "node": "16.17.1",
     "name": "June 2023 ",
-    "created_at": "2023-07-04T10:23:33Z"
+    "created_at": "2023-07-04T10:23:33Z",
+    "tag_name": "1.80.0"
   },
   {
     "version": "1.79.2",
@@ -797,7 +896,8 @@
     "electron": "22.3.10",
     "node": "16.17.1",
     "name": "May 2023 Recovery 2",
-    "created_at": "2023-06-14T08:28:08Z"
+    "created_at": "2023-06-14T08:28:08Z",
+    "tag_name": "1.79.2"
   },
   {
     "version": "1.79.1",
@@ -805,7 +905,8 @@
     "electron": "22.3.10",
     "node": "16.17.1",
     "name": "May 2023 Recovery 1",
-    "created_at": "2023-06-12T15:48:17Z"
+    "created_at": "2023-06-12T15:48:17Z",
+    "tag_name": "1.79.1"
   },
   {
     "version": "1.79.0",
@@ -813,7 +914,8 @@
     "electron": "22.3.10",
     "node": "16.17.1",
     "name": "May 2023",
-    "created_at": "2023-06-07T13:23:47Z"
+    "created_at": "2023-06-07T13:23:47Z",
+    "tag_name": "1.79.0"
   },
   {
     "version": "1.78.2",
@@ -821,7 +923,8 @@
     "electron": "22.3.5",
     "node": "16.17.1",
     "name": "April 2023 Recovery 2",
-    "created_at": "2023-05-10T14:00:06Z"
+    "created_at": "2023-05-10T14:00:06Z",
+    "tag_name": "1.78.2"
   },
   {
     "version": "1.78.1",
@@ -829,7 +932,8 @@
     "electron": "22.3.5",
     "node": "16.17.1",
     "name": "April 2023 Recovery 1",
-    "created_at": "2023-05-04T09:13:35Z"
+    "created_at": "2023-05-04T09:13:35Z",
+    "tag_name": "1.78.1"
   },
   {
     "version": "1.78.0",
@@ -837,7 +941,8 @@
     "electron": "22.3.5",
     "node": "16.17.1",
     "name": "April 2023",
-    "created_at": "2023-05-03T19:37:04Z"
+    "created_at": "2023-05-03T19:37:04Z",
+    "tag_name": "1.78.0"
   },
   {
     "version": "1.77.3",
@@ -845,7 +950,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "March 2023 Recovery 3",
-    "created_at": "2023-04-12T17:20:33Z"
+    "created_at": "2023-04-12T17:20:33Z",
+    "tag_name": "1.77.3"
   },
   {
     "version": "1.77.2",
@@ -853,7 +959,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "March 2023 Recovery 2",
-    "created_at": "2023-04-11T17:09:09Z"
+    "created_at": "2023-04-11T17:09:09Z",
+    "tag_name": "1.77.2"
   },
   {
     "version": "1.77.1",
@@ -861,7 +968,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "March 2023 Recovery 1",
-    "created_at": "2023-04-04T22:49:54Z"
+    "created_at": "2023-04-04T22:49:54Z",
+    "tag_name": "1.77.1"
   },
   {
     "version": "1.77.0",
@@ -869,7 +977,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "March 2023",
-    "created_at": "2023-03-30T17:48:59Z"
+    "created_at": "2023-03-30T17:48:59Z",
+    "tag_name": "1.77.0"
   },
   {
     "version": "1.76.2",
@@ -877,7 +986,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "February 2023 Recovery 2",
-    "created_at": "2023-03-14T17:20:47Z"
+    "created_at": "2023-03-14T17:20:47Z",
+    "tag_name": "1.76.2"
   },
   {
     "version": "1.76.1",
@@ -885,7 +995,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "February 2023 Recovery",
-    "created_at": "2023-03-08T16:01:24Z"
+    "created_at": "2023-03-08T16:01:24Z",
+    "tag_name": "1.76.1"
   },
   {
     "version": "1.76.0",
@@ -893,7 +1004,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "February 2023",
-    "created_at": "2023-02-28T11:07:20Z"
+    "created_at": "2023-02-28T11:07:20Z",
+    "tag_name": "1.76.0"
   },
   {
     "version": "1.75.1",
@@ -901,7 +1013,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "January 2023 Recovery 1",
-    "created_at": "2023-02-08T21:05:19Z"
+    "created_at": "2023-02-08T21:05:19Z",
+    "tag_name": "1.75.1"
   },
   {
     "version": "1.75.0",
@@ -909,7 +1022,8 @@
     "electron": "19.1.9",
     "node": "16.14.2",
     "name": "January 2023",
-    "created_at": "2023-02-01T13:32:54Z"
+    "created_at": "2023-02-01T13:32:54Z",
+    "tag_name": "1.75.0"
   },
   {
     "version": "1.74.3",
@@ -917,7 +1031,8 @@
     "electron": "19.1.8",
     "node": "16.14.2",
     "name": "November 2022 Recovery 3",
-    "created_at": "2023-01-09T16:16:14Z"
+    "created_at": "2023-01-09T16:16:14Z",
+    "tag_name": "1.74.3"
   },
   {
     "version": "1.74.2",
@@ -925,7 +1040,8 @@
     "electron": "19.1.8",
     "node": "16.14.2",
     "name": "November 2022 Recovery 2",
-    "created_at": "2022-12-20T10:02:24Z"
+    "created_at": "2022-12-20T10:02:24Z",
+    "tag_name": "1.74.2"
   },
   {
     "version": "1.74.1",
@@ -933,7 +1049,8 @@
     "electron": "19.1.8",
     "node": "16.14.2",
     "name": "November 2022 Recovery 1",
-    "created_at": "2022-12-14T10:05:52Z"
+    "created_at": "2022-12-14T10:05:52Z",
+    "tag_name": "1.74.1"
   },
   {
     "version": "1.74.0",
@@ -941,7 +1058,8 @@
     "electron": "19.1.8",
     "node": "16.14.2",
     "name": "November 2022",
-    "created_at": "2022-12-07T20:11:23Z"
+    "created_at": "2022-12-07T20:11:23Z",
+    "tag_name": "1.74.0"
   },
   {
     "version": "1.73.1",
@@ -949,7 +1067,8 @@
     "electron": "19.0.17",
     "node": "16.14.2",
     "name": "October 2022 Recovery",
-    "created_at": "2022-11-09T19:20:41Z"
+    "created_at": "2022-11-09T19:20:41Z",
+    "tag_name": "1.73.1"
   },
   {
     "version": "1.73.0",
@@ -957,7 +1076,8 @@
     "electron": "19.0.17",
     "node": "16.14.2",
     "name": "October 2022",
-    "created_at": "2022-11-02T20:36:31Z"
+    "created_at": "2022-11-02T20:36:31Z",
+    "tag_name": "1.73.0"
   },
   {
     "version": "1.72.2",
@@ -965,7 +1085,8 @@
     "electron": "19.0.17",
     "node": "16.14.2",
     "name": "September 2022 Recovery 2",
-    "created_at": "2022-10-10T16:59:55Z"
+    "created_at": "2022-10-12T10:08:52Z",
+    "tag_name": "1.72.2"
   },
   {
     "version": "1.72.1",
@@ -973,7 +1094,8 @@
     "electron": "19.0.17",
     "node": "16.14.2",
     "name": "September 2022 Recovery",
-    "created_at": "2022-10-10T16:59:55Z"
+    "created_at": "2022-10-10T16:59:55Z",
+    "tag_name": "1.72.1"
   },
   {
     "version": "1.72.0",
@@ -981,7 +1103,8 @@
     "electron": "19.0.17",
     "node": "16.14.2",
     "name": "September 2022",
-    "created_at": "2022-10-04T22:54:23Z"
+    "created_at": "2022-10-04T22:54:23Z",
+    "tag_name": "1.72.0"
   },
   {
     "version": "1.71.2",
@@ -989,7 +1112,8 @@
     "electron": "19.0.12",
     "node": "16.14.2",
     "name": "August 2022 Recovery 2",
-    "created_at": "2022-09-14T20:35:22Z"
+    "created_at": "2022-09-14T20:35:22Z",
+    "tag_name": "1.71.2"
   },
   {
     "version": "1.71.1",
@@ -997,7 +1121,8 @@
     "electron": "19.0.12",
     "node": "16.14.2",
     "name": "August 2022 Recovery 1",
-    "created_at": "2022-09-13T17:48:38Z"
+    "created_at": "2022-09-13T17:48:38Z",
+    "tag_name": "1.71.1"
   },
   {
     "version": "1.71.0",
@@ -1005,7 +1130,8 @@
     "electron": "19.0.12",
     "node": "16.14.2",
     "name": "August 2022 (version 1.71.0)",
-    "created_at": "2022-09-01T07:05:32Z"
+    "created_at": "2022-09-01T07:05:32Z",
+    "tag_name": "1.71.0"
   },
   {
     "version": "1.70.2",
@@ -1013,7 +1139,8 @@
     "electron": "18.3.5",
     "node": "16.13.2",
     "name": "July 2022 Recovery 2",
-    "created_at": "2022-08-15T17:13:44Z"
+    "created_at": "2022-08-15T17:13:44Z",
+    "tag_name": "1.70.2"
   },
   {
     "version": "1.70.1",
@@ -1021,7 +1148,8 @@
     "electron": "18.3.5",
     "node": "16.13.2",
     "name": "July 2022 Recovery 1",
-    "created_at": "2022-08-09T20:02:34Z"
+    "created_at": "2022-08-09T20:02:34Z",
+    "tag_name": "1.70.1"
   },
   {
     "version": "1.70.0",
@@ -1029,7 +1157,8 @@
     "electron": "18.3.5",
     "node": "16.13.2",
     "name": "July 2022 (version 1.70)",
-    "created_at": "2022-08-03T05:14:29Z"
+    "created_at": "2022-08-03T05:14:29Z",
+    "tag_name": "1.70.0"
   },
   {
     "version": "1.69.2",
@@ -1037,7 +1166,8 @@
     "electron": "18.3.5",
     "node": "16.13.2",
     "name": "June 2022 Recovery 2",
-    "created_at": "2022-07-18T15:55:11Z"
+    "created_at": "2022-07-18T15:55:11Z",
+    "tag_name": "1.69.2"
   },
   {
     "version": "1.69.1",
@@ -1045,7 +1175,8 @@
     "electron": "18.3.5",
     "node": "16.13.2",
     "name": "June 2022 Recovery 1",
-    "created_at": "2022-07-12T05:58:14Z"
+    "created_at": "2022-07-12T05:58:14Z",
+    "tag_name": "1.69.1"
   },
   {
     "version": "1.69.0",
@@ -1053,7 +1184,8 @@
     "electron": "18.3.5",
     "node": "16.13.2",
     "name": "June 2022 (version 1.69)",
-    "created_at": "2022-07-05T18:15:23Z"
+    "created_at": "2022-07-05T18:15:23Z",
+    "tag_name": "1.69.0"
   },
   {
     "version": "1.68.1",
@@ -1061,7 +1193,8 @@
     "electron": "17.4.7",
     "node": "16.13.0",
     "name": "May 2022 Recovery 1",
-    "created_at": "2022-06-14T10:55:41Z"
+    "created_at": "2022-06-14T10:55:41Z",
+    "tag_name": "1.68.1"
   },
   {
     "version": "1.68.0",
@@ -1069,7 +1202,8 @@
     "electron": "17.4.7",
     "node": "16.13.0",
     "name": "May 2022 (version 1.68)",
-    "created_at": "2022-06-08T11:20:55Z"
+    "created_at": "2022-06-08T11:20:55Z",
+    "tag_name": "1.68.0"
   },
   {
     "version": "1.67.2",
@@ -1077,7 +1211,8 @@
     "electron": "17.4.1",
     "node": "16.13.0",
     "name": "April 2022 Recovery 2",
-    "created_at": "2022-05-16T17:42:35Z"
+    "created_at": "2022-05-16T17:42:35Z",
+    "tag_name": "1.67.2"
   },
   {
     "version": "1.67.1",
@@ -1085,7 +1220,8 @@
     "electron": "17.4.1",
     "node": "16.13.0",
     "name": "April 2022 Recovery 1",
-    "created_at": "2022-05-06T12:20:52Z"
+    "created_at": "2022-05-06T12:20:52Z",
+    "tag_name": "1.67.1"
   },
   {
     "version": "1.67.0",
@@ -1093,7 +1229,8 @@
     "electron": "17.4.1",
     "node": "16.13.0",
     "name": "April 2022 (version 1.67)",
-    "created_at": "2022-05-04T11:47:11Z"
+    "created_at": "2022-05-04T11:47:11Z",
+    "tag_name": "1.67.0"
   },
   {
     "version": "1.66.2",
@@ -1101,7 +1238,8 @@
     "electron": "17.2.0",
     "node": "16.13.0",
     "name": "March 2022 Recovery 2",
-    "created_at": "2022-04-11T07:30:00Z"
+    "created_at": "2022-04-11T07:30:00Z",
+    "tag_name": "1.66.2"
   },
   {
     "version": "1.66.1",
@@ -1109,7 +1247,8 @@
     "electron": "17.2.0",
     "node": "16.13.0",
     "name": "March 2022 Recovery",
-    "created_at": "2022-04-07T15:31:17Z"
+    "created_at": "2022-04-07T15:31:17Z",
+    "tag_name": "1.66.1"
   },
   {
     "version": "1.66.0",
@@ -1117,7 +1256,8 @@
     "electron": "17.2.0",
     "node": "16.13.0",
     "name": "March 2022 (version 1.66)",
-    "created_at": "2022-03-29T15:21:16Z"
+    "created_at": "2022-03-29T15:21:16Z",
+    "tag_name": "1.66.0"
   },
   {
     "version": "1.65.2",
@@ -1125,7 +1265,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "February 2022 Recovery 2",
-    "created_at": "2022-03-10T14:14:09Z"
+    "created_at": "2022-03-10T14:14:09Z",
+    "tag_name": "1.65.2"
   },
   {
     "version": "1.65.1",
@@ -1133,7 +1274,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "February 2022 Recovery 1",
-    "created_at": "2022-03-08T01:48:17Z"
+    "created_at": "2022-03-08T01:48:17Z",
+    "tag_name": "1.65.1"
   },
   {
     "version": "1.65.0",
@@ -1141,7 +1283,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "February 2022 (version 1.65)",
-    "created_at": "2022-03-02T02:35:20Z"
+    "created_at": "2022-03-02T02:35:20Z",
+    "tag_name": "1.65.0"
   },
   {
     "version": "1.64.2",
@@ -1149,7 +1292,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "January 2022 Recovery 2",
-    "created_at": "2022-02-09T21:24:27Z"
+    "created_at": "2022-02-09T21:24:27Z",
+    "tag_name": "1.64.2"
   },
   {
     "version": "1.64.1",
@@ -1157,7 +1301,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "January 2022 Recovery",
-    "created_at": "2022-02-07T16:59:04Z"
+    "created_at": "2022-02-07T16:59:04Z",
+    "tag_name": "1.64.1"
   },
   {
     "version": "1.64.0",
@@ -1165,7 +1310,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "January 2022",
-    "created_at": "2022-02-02T16:57:24Z"
+    "created_at": "2022-02-02T16:57:24Z",
+    "tag_name": "1.64.0"
   },
   {
     "version": "1.63.2",
@@ -1173,7 +1319,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "November 2021 Recovery 2",
-    "created_at": "2021-12-15T09:23:15Z"
+    "created_at": "2021-12-15T09:23:15Z",
+    "tag_name": "1.63.2"
   },
   {
     "version": "1.63.1",
@@ -1181,7 +1328,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "November 2021 Recovery",
-    "created_at": "2021-12-14T01:45:12Z"
+    "created_at": "2021-12-14T01:45:12Z",
+    "tag_name": "1.63.1"
   },
   {
     "version": "1.63.0",
@@ -1189,7 +1337,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "November 2021",
-    "created_at": "2021-12-08T21:19:32Z"
+    "created_at": "2021-12-08T21:19:32Z",
+    "tag_name": "1.63.0"
   },
   {
     "version": "1.62.3",
@@ -1197,7 +1346,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "October 2021 Recovery 3",
-    "created_at": "2021-11-18T18:44:54Z"
+    "created_at": "2021-11-18T18:44:54Z",
+    "tag_name": "1.62.3"
   },
   {
     "version": "1.62.2",
@@ -1205,7 +1355,8 @@
     "electron": "13.5.2",
     "node": "14.16.0",
     "name": "October 2021 Recovery 2",
-    "created_at": "2021-11-12T15:55:27Z"
+    "created_at": "2021-11-12T15:55:27Z",
+    "tag_name": "1.62.2"
   },
   {
     "version": "1.62.1",
@@ -1213,7 +1364,8 @@
     "electron": "13.5.1",
     "node": "14.16.0",
     "name": "October 2021 Recovery",
-    "created_at": "2021-11-05T08:51:48Z"
+    "created_at": "2021-11-05T08:51:48Z",
+    "tag_name": "1.62.1"
   },
   {
     "version": "1.62.0",
@@ -1221,7 +1373,8 @@
     "electron": "13.5.1",
     "node": "14.16.0",
     "name": "October 2021",
-    "created_at": "2021-11-04T16:42:23Z"
+    "created_at": "2021-11-04T16:42:23Z",
+    "tag_name": "1.62.0"
   },
   {
     "version": "1.61.2",
@@ -1229,7 +1382,8 @@
     "electron": "13.5.1",
     "node": "14.16.0",
     "name": "September 2021 Recovery 2",
-    "created_at": "2021-10-19T18:08:25Z"
+    "created_at": "2021-10-19T18:08:25Z",
+    "tag_name": "1.61.2"
   },
   {
     "version": "1.61.1",
@@ -1237,7 +1391,8 @@
     "electron": "13.5.1",
     "node": "14.16.0",
     "name": "September 2021 Recovery",
-    "created_at": "2021-10-14T18:16:51Z"
+    "created_at": "2021-10-14T18:16:51Z",
+    "tag_name": "1.61.1"
   },
   {
     "version": "1.61.0",
@@ -1245,7 +1400,8 @@
     "electron": "13.5.1",
     "node": "14.16.0",
     "name": "September 2021",
-    "created_at": "2021-10-07T20:53:47Z"
+    "created_at": "2021-10-07T20:53:47Z",
+    "tag_name": "1.61.0"
   },
   {
     "version": "1.60.2",
@@ -1253,7 +1409,8 @@
     "electron": "13.1.8",
     "node": "14.16.0",
     "name": "August 2021 Recovery 2",
-    "created_at": "2021-09-22T11:45:58Z"
+    "created_at": "2021-09-22T11:45:58Z",
+    "tag_name": "1.60.2"
   },
   {
     "version": "1.60.1",
@@ -1261,7 +1418,8 @@
     "electron": "13.1.8",
     "node": "14.16.0",
     "name": "August 2021 Recovery",
-    "created_at": "2021-09-10T16:45:00Z"
+    "created_at": "2021-09-10T16:45:00Z",
+    "tag_name": "1.60.1"
   },
   {
     "version": "1.60.0",
@@ -1269,7 +1427,8 @@
     "electron": "13.1.8",
     "node": "14.16.0",
     "name": "August 2021",
-    "created_at": "2021-09-01T10:25:58Z"
+    "created_at": "2021-09-01T10:25:58Z",
+    "tag_name": "1.60.0"
   },
   {
     "version": "1.59.1",
@@ -1277,7 +1436,8 @@
     "electron": "13.1.7",
     "node": "14.16.0",
     "name": "July 2021 Recovery",
-    "created_at": "2021-08-18T23:34:31Z"
+    "created_at": "2021-08-18T23:34:31Z",
+    "tag_name": "1.59.1"
   },
   {
     "version": "1.59.0",
@@ -1285,7 +1445,8 @@
     "electron": "13.1.7",
     "node": "14.16.0",
     "name": "July 2021",
-    "created_at": "2021-08-04T20:11:41Z"
+    "created_at": "2021-08-04T20:11:41Z",
+    "tag_name": "1.59.0"
   },
   {
     "version": "1.58.2",
@@ -1293,7 +1454,8 @@
     "electron": "12.0.13",
     "node": "14.16.0",
     "name": "June 2021 Recovery 2",
-    "created_at": "2021-07-14T21:51:05Z"
+    "created_at": "2021-07-14T21:51:05Z",
+    "tag_name": "1.58.2"
   },
   {
     "version": "1.58.1",
@@ -1301,7 +1463,8 @@
     "electron": "12.0.13",
     "node": "14.16.0",
     "name": "June 2021 Recovery",
-    "created_at": "2021-07-13T06:04:54Z"
+    "created_at": "2021-07-13T06:04:54Z",
+    "tag_name": "1.58.1"
   },
   {
     "version": "1.58.0",
@@ -1309,7 +1472,8 @@
     "electron": "12.0.13",
     "node": "14.16.0",
     "name": "June 2021",
-    "created_at": "2021-07-07T11:18:25Z"
+    "created_at": "2021-07-07T11:18:25Z",
+    "tag_name": "1.58.0"
   },
   {
     "version": "1.57.1",
@@ -1317,7 +1481,8 @@
     "electron": "12.0.7",
     "node": "14.16.0",
     "name": "May 2021 Recovery",
-    "created_at": "2021-06-17T12:10:36Z"
+    "created_at": "2021-06-17T12:10:36Z",
+    "tag_name": "1.57.1"
   },
   {
     "version": "1.57.0",
@@ -1325,7 +1490,8 @@
     "electron": "12.0.9",
     "node": "14.16.0",
     "name": "May 2021",
-    "created_at": "2021-06-09T10:16:30Z"
+    "created_at": "2021-06-09T10:16:30Z",
+    "tag_name": "1.57.0"
   },
   {
     "version": "1.56.2",
@@ -1333,7 +1499,8 @@
     "electron": "12.0.4",
     "node": "14.16.0",
     "name": "April 2021 Recovery 2",
-    "created_at": "2021-05-13T17:02:33Z"
+    "created_at": "2021-05-13T17:02:33Z",
+    "tag_name": "1.56.2"
   },
   {
     "version": "1.56.1",
@@ -1341,7 +1508,8 @@
     "electron": "12.0.4",
     "node": "14.16.0",
     "name": "April 2021 Recovery",
-    "created_at": "2021-05-06T09:54:30Z"
+    "created_at": "2021-05-06T09:54:30Z",
+    "tag_name": "1.56.1"
   },
   {
     "version": "1.56.0",
@@ -1349,7 +1517,8 @@
     "electron": "12.0.4",
     "node": "14.16.0",
     "name": "April 2021",
-    "created_at": "2021-05-05T20:48:28Z"
+    "created_at": "2021-05-05T20:48:28Z",
+    "tag_name": "1.56.0"
   },
   {
     "version": "1.55.2",
@@ -1357,7 +1526,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "March 2021 Recovery",
-    "created_at": "2021-04-13T17:03:27Z"
+    "created_at": "2021-04-13T17:03:27Z",
+    "tag_name": "1.55.2"
   },
   {
     "version": "1.55.1",
@@ -1365,7 +1535,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "March 2021 Recovery",
-    "created_at": "2021-04-08T18:05:26Z"
+    "created_at": "2021-04-08T18:05:26Z",
+    "tag_name": "1.55.1"
   },
   {
     "version": "1.55.0",
@@ -1373,7 +1544,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "March 2021",
-    "created_at": "2021-03-31T17:17:53Z"
+    "created_at": "2021-03-31T17:17:53Z",
+    "tag_name": "1.55.0"
   },
   {
     "version": "1.54.3",
@@ -1381,7 +1553,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "February 2021 Recovery 3",
-    "created_at": "2021-03-15T10:37:30Z"
+    "created_at": "2021-03-15T10:37:30Z",
+    "tag_name": "1.54.3"
   },
   {
     "version": "1.54.2",
@@ -1389,7 +1562,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "February 2021 Recovery 2",
-    "created_at": "2021-03-11T00:40:17Z"
+    "created_at": "2021-03-11T00:40:17Z",
+    "tag_name": "1.54.2"
   },
   {
     "version": "1.54.1",
@@ -1397,7 +1571,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "February 2021 Recovery",
-    "created_at": "2021-03-04T22:21:59Z"
+    "created_at": "2021-03-04T22:21:59Z",
+    "tag_name": "1.54.1"
   },
   {
     "version": "1.54.0",
@@ -1405,7 +1580,8 @@
     "electron": "11.3.0",
     "node": "12.18.3",
     "name": "February 2021",
-    "created_at": "2021-03-02T18:39:23Z"
+    "created_at": "2021-03-02T18:39:23Z",
+    "tag_name": "1.54.0"
   },
   {
     "version": "1.53.2",
@@ -1413,7 +1589,8 @@
     "electron": "11.2.1",
     "node": "12.18.3",
     "name": "January 2021 Recovery 2",
-    "created_at": "2021-02-11T11:31:56Z"
+    "created_at": "2021-02-11T11:31:56Z",
+    "tag_name": "1.53.2"
   },
   {
     "version": "1.53.1",
@@ -1421,7 +1598,8 @@
     "electron": "11.2.1",
     "node": "12.18.3",
     "name": "January 2021 Recovery",
-    "created_at": "2021-02-08T22:59:27Z"
+    "created_at": "2021-02-08T22:59:27Z",
+    "tag_name": "1.53.1"
   },
   {
     "version": "1.53.0",
@@ -1429,7 +1607,8 @@
     "electron": "11.2.1",
     "node": "12.18.3",
     "name": "January 2021",
-    "created_at": "2021-02-03T15:33:23Z"
+    "created_at": "2021-02-03T15:33:23Z",
+    "tag_name": "1.53.0"
   },
   {
     "version": "1.52.1",
@@ -1437,7 +1616,8 @@
     "electron": "9.3.5",
     "node": "12.14.1",
     "name": "November 2020 Recovery",
-    "created_at": "2020-12-16T14:57:12Z"
+    "created_at": "2020-12-16T14:57:12Z",
+    "tag_name": "1.52.1"
   },
   {
     "version": "1.52.0",
@@ -1445,7 +1625,8 @@
     "electron": "9.3.5",
     "node": "12.14.1",
     "name": "November 2020",
-    "created_at": "2020-12-10T22:10:40Z"
+    "created_at": "2020-12-10T22:10:40Z",
+    "tag_name": "1.52.0"
   },
   {
     "version": "1.51.1",
@@ -1453,7 +1634,8 @@
     "electron": "9.3.3",
     "node": "12.14.1",
     "name": "October 2020 Recovery",
-    "created_at": "2020-11-10T22:57:26Z"
+    "created_at": "2020-11-10T22:57:26Z",
+    "tag_name": "1.51.1"
   },
   {
     "version": "1.51.0",
@@ -1461,7 +1643,8 @@
     "electron": "9.3.3",
     "node": "12.14.1",
     "name": "October 2020",
-    "created_at": "2020-11-04T15:29:23Z"
+    "created_at": "2020-11-04T15:29:23Z",
+    "tag_name": "1.51.0"
   },
   {
     "version": "1.50.1",
@@ -1469,7 +1652,8 @@
     "electron": "9.2.1",
     "node": "12.14.1",
     "name": "September 2020 Recovery",
-    "created_at": "2020-10-13T14:05:48Z"
+    "created_at": "2020-10-13T14:05:48Z",
+    "tag_name": "1.50.1"
   },
   {
     "version": "1.50.0",
@@ -1477,7 +1661,8 @@
     "electron": "9.2.1",
     "node": "12.14.1",
     "name": "September 2020",
-    "created_at": "2020-10-07T00:27:02Z"
+    "created_at": "2020-10-07T00:27:02Z",
+    "tag_name": "1.50.0"
   },
   {
     "version": "1.49.3",
@@ -1485,7 +1670,8 @@
     "electron": "9.2.1",
     "node": "12.14.1",
     "name": "August 2020 Recovery 3",
-    "created_at": "2020-10-02T16:06:59Z"
+    "created_at": "2020-10-02T16:06:59Z",
+    "tag_name": "1.49.3"
   },
   {
     "version": "1.49.2",
@@ -1493,7 +1679,8 @@
     "electron": "9.2.1",
     "node": "12.14.1",
     "name": "August 2020 Recovery 2",
-    "created_at": "2020-09-22T23:07:58Z"
+    "created_at": "2020-09-22T23:07:58Z",
+    "tag_name": "1.49.2"
   },
   {
     "version": "1.49.1",
@@ -1501,7 +1688,8 @@
     "electron": "9.2.1",
     "node": "12.14.1",
     "name": "August 2020 Recovery",
-    "created_at": "2020-09-16T22:42:06Z"
+    "created_at": "2020-09-16T22:42:06Z",
+    "tag_name": "1.49.1"
   },
   {
     "version": "1.49.0",
@@ -1509,7 +1697,8 @@
     "electron": "9.2.1",
     "node": "12.14.1",
     "name": "August 2020",
-    "created_at": "2020-09-09T07:40:32Z"
+    "created_at": "2020-09-09T07:40:32Z",
+    "tag_name": "1.49.0"
   },
   {
     "version": "1.48.2",
@@ -1517,6 +1706,7 @@
     "electron": "7.3.2",
     "node": "12.8.1",
     "name": "July 2020 Recovery 2",
-    "created_at": "2020-08-25T09:40:01Z"
+    "created_at": "2020-08-25T09:40:01Z",
+    "tag_name": "1.48.2"
   }
 ]

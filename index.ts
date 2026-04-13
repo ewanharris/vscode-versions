@@ -23,6 +23,7 @@ interface VsCode {
   node: string;
   chromium: string;
   version: string;
+  tag_name: string;
 }
 
 /**
@@ -203,6 +204,7 @@ async function getVsCodeVersions() {
         node,
         name,
         created_at,
+        tag_name: tag_name,
       });
     }
   }
@@ -227,7 +229,7 @@ Last updated: ${new Date().toISOString()}
 |:-------:|:--------:|:----------:|:--------:|:----:|:------:|
 ${
     versions.map((version) => (
-      `|[${version.version}](https://github.com/microsoft/vscode/releases/tag/${version.version})|${version.name}|${
+      `|[${version.tag_name}](https://github.com/microsoft/vscode/releases/tag/${version.tag_name})|${version.name}|${
         version.created_at?.split("T")[0] ?? "Unknown"
       }|${version.electron}|${version.node}|${version.chromium}|`
     )).join("\n")
