@@ -196,6 +196,19 @@ Last updated: 2026-04-13T20:56:39.185Z
 |  [1.49.1](https://github.com/microsoft/vscode/releases/tag/1.49.1)  |     August 2020 Recovery     |  2020-09-16  |  9.2.1   | 12.14.1 | 83.0.4103.122  |
 |  [1.49.0](https://github.com/microsoft/vscode/releases/tag/1.49.0)  |         August 2020          |  2020-09-09  |  9.2.1   | 12.14.1 | 83.0.4103.122  |
 |  [1.48.2](https://github.com/microsoft/vscode/releases/tag/1.48.2)  |     July 2020 Recovery 2     |  2020-08-25  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.48.1](https://github.com/microsoft/vscode/releases/tag/1.48.1)  |      July 2020 Recovery      |  2020-08-19  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.48.0](https://github.com/microsoft/vscode/releases/tag/1.48.0)  |          July 2020           |  2020-08-11  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.47.3](https://github.com/microsoft/vscode/releases/tag/1.47.3)  |     June 2020 Recovery 3     |  2020-07-21  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.47.2](https://github.com/microsoft/vscode/releases/tag/1.47.2)  |     June 2020 Recovery 2     |  2020-07-15  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.47.1](https://github.com/microsoft/vscode/releases/tag/1.47.1)  |      June 2020 Recovery      |  2020-07-13  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.47.0](https://github.com/microsoft/vscode/releases/tag/1.47.0)  |          June 2020           |  2020-07-08  |  7.3.2   | 12.8.1  | 78.0.3904.130  |
+|  [1.46.1](https://github.com/microsoft/vscode/releases/tag/1.46.1)  |      May 2020 Recovery       |  2020-06-17  |  7.3.1   | 12.8.1  | 78.0.3904.130  |
+|  [1.46.0](https://github.com/microsoft/vscode/releases/tag/1.46.0)  |           May 2020           |  2020-06-09  |  7.3.1   | 12.8.1  | 78.0.3904.130  |
+|  [1.45.1](https://github.com/microsoft/vscode/releases/tag/1.45.1)  |     April 2020 Recovery      |  2020-05-14  |  7.2.4   | 12.8.1  | 78.0.3904.130  |
+|  [1.45.0](https://github.com/microsoft/vscode/releases/tag/1.45.0)  |          April 2020          |  2020-05-05  |  7.2.4   | 12.8.1  | 78.0.3904.130  |
+|  [1.39.2](https://github.com/microsoft/vscode/releases/tag/1.39.2)  |  September 2019 Recovery 2   |  2019-10-15  |  4.2.10  | Unknown | 69.0.3497.128  |
+|  [1.39.1](https://github.com/microsoft/vscode/releases/tag/1.39.1)  |   September 2019 Recovery    |  2019-10-10  |  4.2.10  | Unknown | 69.0.3497.128  |
+|  [1.39.0](https://github.com/microsoft/vscode/releases/tag/1.39.0)  |        September 2019        |  2019-10-08  |  4.2.10  | Unknown | 69.0.3497.128  |
 
 ## How it works
 

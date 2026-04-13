@@ -33,16 +33,17 @@ interface VsCode {
  * @returns {string|undefined} - The next link value if one exists
  */
 function parseLinkHeader(header: string): string | undefined {
-  let nextLink: string | undefined;
-  for (const part of header.split(/,\s*</)) {
-    const [link, rel] = part.split(/;\s*/);
-    if (!rel.includes("next")) {
+  for (const part of header.split(/,\s*/)) {
+   const match = part.trim().match(/^<([^>]+)>\s*;\s*rel="([^"]+)"$/);
+    if (!match) {
       continue;
     }
 
-    nextLink = link.match(/<(.*)>/)?.[1];
+    const [, url, rel] = match;
+    if (rel === "next") {
+      return url;
+    }
   }
-  return nextLink;
 }
 
 /**
@@ -59,6 +60,11 @@ async function githubApiRequest<T extends Array<unknown>>(uri: string): Promise<
       "Authorization": `token ${GITHUB_TOKEN}`,
     }),
   });
+
+  if (!response.ok) {
+    console.error(`Failed to get data for ${uri}`);
+    throw new Error(await response.text());
+  }
 
   const data = await response.json() as T;
 
