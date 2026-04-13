@@ -34,7 +34,7 @@ interface VsCode {
  */
 function parseLinkHeader(header: string): string | undefined {
   for (const part of header.split(/,\s*/)) {
-   const match = part.trim().match(/^<([^>]+)>\s*;\s*rel="([^"]+)"$/);
+    const match = part.trim().match(/^<([^>]+)>\s*;\s*rel="([^"]+)"$/);
     if (!match) {
       continue;
     }
