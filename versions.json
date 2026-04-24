@@ -1845,6 +1845,15 @@
     "tag_name": "1.39.0"
   },
   {
+    "version": "v0.45.1",
+    "chromium": "142.0.7444.265",
+    "electron": "39.8.7",
+    "node": "22.22.1",
+    "name": "copilot/0.45.1",
+    "created_at": "2026-04-23T02:00:32Z",
+    "tag_name": "v0.45.1"
+  },
+  {
     "version": "v0.44.2",
     "chromium": "142.0.7444.265",
     "electron": "39.8.7",
