@@ -108,21 +108,30 @@ async function githubFileRequest(uri: string): Promise<string> {
  * @returns {Promise<string>} The Electron version
  */
 async function getElectronVersion(version: string): Promise<string> {
-  let electronVersion = "Unknown";
+  // newest versions (after the move to pnpm) store the target in package.json under nativeBuild
+  try {
+    const packageJson = JSON.parse(
+      await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/package.json`),
+    );
+    const target = packageJson?.nativeBuild?.target;
+    if (typeof target === "string" && target) {
+      return target;
+    }
+  } catch (_) {
+    // fall through to the rc files
+  }
+
   let rcFile;
   try {
-    // newer versions moved to .npmrc
+    // older versions used .npmrc
     rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.npmrc`);
   } catch (_) {
-    // older versions used .yarnrc
+    // even older versions used .yarnrc
     rcFile = await githubFileRequest(`https://raw.githubusercontent.com/Microsoft/vscode/${version}/.yarnrc`);
   }
 
   const target = rcFile.match(/target[ =]"(\d.*)"/);
-  if (target && target[1]) {
-    electronVersion = target[1];
-  }
-  return electronVersion;
+  return target?.[1] ?? "Unknown";
 }
 
 /**
